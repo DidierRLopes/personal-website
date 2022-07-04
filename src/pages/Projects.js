@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Main from "../layouts/Main";
+import Main from '../layouts/Main';
 
-import Cell from "../components/Projects/Cell";
-import data from "../data/projects";
+import Cell from '../components/Projects/Cell';
+import data from '../data/projects';
 
 const Projects = () => (
   <Main
@@ -17,7 +17,8 @@ const Projects = () => (
           <h2 data-testid="heading">
             <Link to="/projects">Projects</Link>
           </h2>
-          <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <p>&quot;Unfortunately today I can&#39;t, I have plans.&quot;</p>
+          <p>The plans:</p>
         </div>
       </header>
       {data.map((project) => (

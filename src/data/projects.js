@@ -1,47 +1,115 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'OpenBB Terminal',
+    link: 'https://github.com/OpenBB-finance/OpenBBTerminal',
+    image: '/images/projects/openbb.png',
+    desc: 'Investment Research for Everyone, Anywhere.',
+    language: 'Python',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
+    title: 'Discord Memes',
+    link: 'https://github.com/DidierRLopes/discord-memes',
+    image: '/images/projects/discord_memes.png',
+    desc: 'Discord bot that allows to send memes with text populated',
+    language: 'Python',
+  },
+  {
+    title: 'Univariate Time-Series Forecast',
+    link: 'https://github.com/DidierRLopes/UnivariateTimeSeriesForecast',
+    image: '/images/projects/univariate_timeseries_forecast.png',
+    desc: 'PhD Thesis: "Data Science in the Modeling and Forecasting of Financial Timeseries: from Classic methodologies to Deep Learning"',
+    language: 'Python',
+  },
+  {
+    title: 'Time-Series Cross-Validation',
+    link: 'https://github.com/DidierRLopes/timeseries-cv',
+    image: '/images/projects/timeseries_cv.png',
+    desc: 'Time-Series Cross-Validation Module',
+    language: 'Python',
+  },
+  {
+    title: 'Momentum Football Bets',
+    link: 'https://github.com/DidierRLopes/momentum-football-bets',
+    image: '/images/projects/football_momentum.png',
+    desc: 'Football bets prediction based on momentum from Honer family',
+    language: 'Python',
+  },
+  {
+    title: 'Meme Filter',
+    link: 'https://github.com/DidierRLopes/meme-filter',
+    image: '/images/projects/memes_filter.png',
+    desc: 'Multiplayer customizable snapchat kind of filter',
+    language: 'Python',
+  },
+  {
+    title: 'Unofficial CNN Fear and Greed Index',
+    link: 'https://github.com/DidierRLopes/fear-greed-index',
+    image: '/images/projects/feargreed.png',
+    desc: 'Python CNN Fear and Greed Index wrapper',
+    language: 'Python',
+  },
+  {
+    title: 'Reddit Giveaway NFT Bot',
+    link: 'https://github.com/DidierRLopes/GiveawayNFTbot',
+    image: '/images/projects/giveaway_nft.png',
+    desc: 'Bot that automatically signs up to NFT giveaways on Reddit',
+    language: 'Python',
+  },
+  {
+    title: 'Neistpoint Stock Management Database',
+    link: 'https://github.com/DidierRLopes/NeistpointCLI',
+    image: '/images/projects/neistpoint_cli.png',
+    desc: 'Allow the clothing brand NeistPoint to manage their cloths stocks',
+    language: 'Python',
+  },
+  {
+    title: 'Household Bills',
+    link: 'https://github.com/DidierRLopes/HouseholdBills',
+    image: '/images/projects/household_bills.png',
+    desc: 'Tracks bills between me and my brother when we lived together',
+    language: 'Java',
+  },
+  {
+    title: 'Job Analysis',
+    link: 'https://github.com/DidierRLopes/JobAnalysis',
+    image: '/images/projects/job_analysis.png',
+    desc: 'Extracts statistics from my old 9-5 job',
+    language: 'Python',
+  },
+  {
+    title: 'Minion Recipes Program',
+    link: 'https://github.com/DidierRLopes/RecipesProgram',
+    image: '/images/projects/recipes_program.png',
+    desc: 'Tracks favourite recipes of my mom',
+    language: 'Java',
+  },
+  {
+    title: 'London Visits',
+    link: 'https://github.com/DidierRLopes/LondonVisit',
+    image: '/images/projects/london_visit.png',
+    desc: 'K-means algorithm to decide what to visit in London based on days',
+    language: 'Python',
+  },
+  {
+    title: 'Step Detection using Machine Learning',
+    link: 'https://github.com/DidierRLopes/step-detection-ML',
+    image: '/images/projects/stepdetection_ml.png',
+    desc: 'Step Detection using SVM on NURVV trackers',
+    language: 'Python',
+  },
+  {
+    title: 'Similar Stocks',
+    link: 'https://github.com/DidierRLopes/similarstocks',
     image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    desc: 'Similar stocks based on their description through NLP models',
+    language: 'Python',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'Sort Movies',
+    link: 'https://github.com/DidierRLopes/SortMoviesPerRating',
+    image: '/images/projects/rank_movies.png',
+    desc: 'Sort movies according to their IMDB rating',
+    language: 'Python',
   },
 ];
 

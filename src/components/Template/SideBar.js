@@ -9,15 +9,11 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
         <h2>Didier Lopes</h2>
-        <p>
-          <a href="mailto:didier.lopes@openbb.finance">
-            didier.lopes@openbb.finance
-          </a>
-        </p>
+        <p>Founder and CEO @ OpenBB 🦋</p>
       </header>
     </section>
 
