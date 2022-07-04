@@ -96,8 +96,21 @@
 
 	.school {
 		text-transform: none;
-		padding-top: 0.3em;
-		margin-bottom: 1em;
+		padding-top: 0.2em;
+		margin-bottom: .8em;
+	}
+
+	.date {
+		text-transform: none;
+		margin-bottom: .8em;
+	}
+
+	.points {
+		li {
+			margin: 0;
+			padding: 0;
+				font-size: .8em;
+		}
 	}
 }
 
