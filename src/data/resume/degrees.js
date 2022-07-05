@@ -1,7 +1,7 @@
 const degrees = [
   {
     school: 'Imperial College London, United Kingdom',
-    degree: 'MSc. in Control Systems (with Distinction)',
+    degree: 'MSc. in Control Systems, Distinction',
     year: 'Otober 2017 - October 2018',
     points: [
       'Mathematics for Signals and Systems, System Identification, Optimisation, Predictive Control, Estimation and Fault Detection, Pattern Recognition and Machine Learning for Computer Vision.',
@@ -21,7 +21,7 @@ const degrees = [
   {
     school:
       'Faculty of Sciences and Technology - New University of Lisbon, Portugal',
-    degree: 'BSc. in Electrical and Computer Engineering',
+    degree: 'BSc. in Electrical and Computer Engineering, Top 1',
     year: 'September 2013 - January 2017',
     points: [
       'Mathematics, Physics, Energy, Telecommunication, Digital Systems, Electronics, Robotics and Control Systems.',

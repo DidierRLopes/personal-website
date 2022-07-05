@@ -61,6 +61,13 @@
 		}
 	}
 
+	.articles {
+		padding-top: 1.6em;
+		.title {
+			text-align: center;
+		}
+	}
+
 	.skills {
 		margin-top: 2em;
 		.title {
@@ -114,20 +121,24 @@
 	}
 }
 
-.courses .course-number {
-	display: inline;
-}
-.courses .course-name {
-	display: inline;
-	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.7em;
-  font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
-  margin-top: -1em;
-  text-transform: uppercase;
+.course-container {
+	margin: .2em;
+	p{
+		margin: 0;
+	}
 }
 
+.courses .course-name {
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  align-items: center;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.courses .course-date {
+	font-size: .7em;
+}
 .courses ul li{
   display: inline;
 }
@@ -135,6 +146,25 @@
 .course-dot {
 	display: inline;
 	// display: none;
+}
+
+.article-container {
+	margin: .2em;
+	p{
+		margin: 0;
+	}
+}
+
+.articles .article-name {
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  align-items: center;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.articles .article-date {
+	font-size: .7em;
 }
 
 @include breakpoint(small) {
