@@ -13,7 +13,7 @@ import positions from '../data/resume/positions';
 import courses from '../data/resume/courses';
 import articles from '../data/resume/articles';
 
-const sections = ['Experience', 'Articles', 'Education', 'Online Courses'];
+const sections = ['Experience', 'Articles', 'Education', 'Courses'];
 
 const Resume = () => (
   <Main title="Resume" description="Didier Rodrigues Lopes Resume.">
@@ -26,7 +26,11 @@ const Resume = () => (
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                <a href={`#${sec.toLowerCase()}`}>
+                  {' | '}
+                  {sec}
+                  {' | '}
+                </a>
               </h4>
             ))}
           </div>

@@ -7,10 +7,31 @@ const data = [
     language: 'Python',
   },
   {
+    title: 'Meme Filter',
+    link: 'https://github.com/DidierRLopes/meme-filter',
+    image: '/images/projects/memes_filter.png',
+    desc: 'Multiplayer customizable snapchat kind of filter',
+    language: 'Python',
+  },
+  {
+    title: 'Reddit Giveaway NFT Bot',
+    link: 'https://github.com/DidierRLopes/GiveawayNFTbot',
+    image: '/images/projects/giveaway_nft.png',
+    desc: 'Bot that automatically signs up to NFT giveaways on Reddit',
+    language: 'Python',
+  },
+  {
     title: 'Discord Memes',
     link: 'https://github.com/DidierRLopes/discord-memes',
     image: '/images/projects/discord_memes.png',
     desc: 'Discord bot that allows to send memes with text populated',
+    language: 'Python',
+  },
+  {
+    title: 'Step Detection using Machine Learning',
+    link: 'https://github.com/DidierRLopes/step-detection-ML',
+    image: '/images/projects/stepdetection_ml.png',
+    desc: 'Step Detection using SVM on NURVV trackers',
     language: 'Python',
   },
   {
@@ -21,13 +42,6 @@ const data = [
     language: 'Python',
   },
   {
-    title: 'Time-Series Cross-Validation',
-    link: 'https://github.com/DidierRLopes/timeseries-cv',
-    image: '/images/projects/timeseries_cv.png',
-    desc: 'Time-Series Cross-Validation Module',
-    language: 'Python',
-  },
-  {
     title: 'Momentum Football Bets',
     link: 'https://github.com/DidierRLopes/momentum-football-bets',
     image: '/images/projects/football_momentum.png',
@@ -35,10 +49,10 @@ const data = [
     language: 'Python',
   },
   {
-    title: 'Meme Filter',
-    link: 'https://github.com/DidierRLopes/meme-filter',
-    image: '/images/projects/memes_filter.png',
-    desc: 'Multiplayer customizable snapchat kind of filter',
+    title: 'Time-Series Cross-Validation',
+    link: 'https://github.com/DidierRLopes/timeseries-cv',
+    image: '/images/projects/timeseries_cv.png',
+    desc: 'Time-Series Cross-Validation Module',
     language: 'Python',
   },
   {
@@ -48,13 +62,7 @@ const data = [
     desc: 'Python CNN Fear and Greed Index wrapper',
     language: 'Python',
   },
-  {
-    title: 'Reddit Giveaway NFT Bot',
-    link: 'https://github.com/DidierRLopes/GiveawayNFTbot',
-    image: '/images/projects/giveaway_nft.png',
-    desc: 'Bot that automatically signs up to NFT giveaways on Reddit',
-    language: 'Python',
-  },
+
   {
     title: 'Neistpoint Stock Management Database',
     link: 'https://github.com/DidierRLopes/NeistpointCLI',
@@ -91,10 +99,10 @@ const data = [
     language: 'Python',
   },
   {
-    title: 'Step Detection using Machine Learning',
-    link: 'https://github.com/DidierRLopes/step-detection-ML',
-    image: '/images/projects/stepdetection_ml.png',
-    desc: 'Step Detection using SVM on NURVV trackers',
+    title: 'Sort Movies',
+    link: 'https://github.com/DidierRLopes/SortMoviesPerRating',
+    image: '/images/projects/rank_movies.png',
+    desc: 'Sort movies according to their IMDB rating',
     language: 'Python',
   },
   {
@@ -102,13 +110,6 @@ const data = [
     link: 'https://github.com/DidierRLopes/similarstocks',
     image: '/images/projects/harvest.jpg',
     desc: 'Similar stocks based on their description through NLP models',
-    language: 'Python',
-  },
-  {
-    title: 'Sort Movies',
-    link: 'https://github.com/DidierRLopes/SortMoviesPerRating',
-    image: '/images/projects/rank_movies.png',
-    desc: 'Sort movies according to their IMDB rating',
     language: 'Python',
   },
 ];

@@ -18,17 +18,11 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <h2>CONTACT ME</h2>
       <p>
-        Hi, I&apos;m Didier. I&apos;m curious and love to learn. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        Alumni, and the co-founder and CTO of{' '}
-        <a href="https://arthena.com">Arthena</a>. Before Arthena I was at{' '}
-        <a href="https://matroid.com">Matroid</a>,{' '}
-        <a href="https://planet.com">Planet</a>,{' '}
-        <a href="https://planetaryresources.com">Planetary Resources</a>,{' '}
-        <a href="https://facebook.com">Facebook</a>, and{' '}
-        <a href="https://seds.org">SEDS</a>.
+        <a href="https://cal.com/didierlopes/30min">
+          didier.lopes@openbb.finance
+        </a>
       </p>
       <ul className="actions">
         <li>

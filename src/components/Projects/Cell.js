@@ -11,17 +11,13 @@ const Cell = ({ data }) => (
         <p>{data.desc}</p>
       </header>
       <a href={data.link} className="image">
-        <div className="container">
+        <div className="project-img">
           <img
             src={`${process.env.PUBLIC_URL}${data.image}`}
             alt={data.title}
-            height="500"
           />
         </div>
       </a>
-      <div className="description">
-        <p>{data.language}</p>
-      </div>
     </article>
   </div>
 );

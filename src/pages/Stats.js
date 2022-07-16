@@ -4,23 +4,40 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Personal from '../components/Stats/Personal';
-import Site from '../components/Stats/Site';
+import OpenBBProgress from '../components/Stats/OpenBB Progress';
+import Travel from '../components/Stats/Travel';
+import OpenSourceStats from '../components/Stats/Open Source';
+
+const sections = ['Personal', 'Open Source', 'Travel', 'OpenBB Progress'];
 
 const Stats = () => (
-  <Main
-    title="Stats"
-    description="Some statistics about Didier Rodrigues Lopes and mldangelo.com"
-  >
+  <Main title="Stats" description="Didier Rodrigues Lopes Stats">
     <article className="post" id="stats">
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="/stats">Stats</Link>
+            <Link to="stats">Stats</Link>
           </h2>
+          <div className="link-container">
+            {sections.map((sec) => (
+              <h4 key={sec}>
+                <a href={`#${sec.toLowerCase()}`}>
+                  {' | '}
+                  {sec}
+                  {' | '}
+                </a>
+              </h4>
+            ))}
+          </div>
         </div>
       </header>
       <Personal />
-      <Site />
+      <hr />
+      <OpenSourceStats />
+      <hr />
+      <Travel />
+      <hr />
+      <OpenBBProgress />
     </article>
   </Main>
 );

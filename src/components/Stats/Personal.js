@@ -2,11 +2,14 @@ import React from 'react';
 import Table from './Table';
 import data from '../../data/stats/personal';
 
-const PersonalStats = () => (
-  <>
-    <h3>Some stats about me</h3>
+const Personal = () => (
+  <div>
+    <div className="link-to" id="personal" />
+    <div className="title">
+      <h2 className="blue-text">Personal</h2>
+    </div>
     <Table data={data} />
-  </>
+  </div>
 );
 
-export default PersonalStats;
+export default Personal;
