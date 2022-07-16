@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Article = ({ data }) => (
-  <li className="article-container">
-    <a href={data.link}>
-      <p className="article-name">
-        <strong>{data.title}</strong>
-      </p>
+  <div className="article-container">
+    <div>
+      <strong>
+        <a href={data.link}>{data.title}</a>
+      </strong>
       <p className="article-date">{data.conference}</p>
-    </a>
-  </li>
+    </div>
+  </div>
 );
 
 Article.propTypes = {

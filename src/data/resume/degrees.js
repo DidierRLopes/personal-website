@@ -1,6 +1,7 @@
 const degrees = [
   {
     school: 'Imperial College London, United Kingdom',
+    link: 'https://www.imperial.ac.uk/media/imperial-college/study/programme-specifications/eee/1819/CS-ProgSpec(J9U4)-2018-19---February2019.pdf',
     degree: 'MSc. in Control Systems, Distinction',
     year: 'Otober 2017 - October 2018',
     points: [
@@ -11,6 +12,7 @@ const degrees = [
   },
   {
     school: 'Delft University of Technology, The Netherlands',
+    link: 'https://www.tudelft.nl/en/education/programmes/masters/systems-control/msc-systems-control/programme',
     degree: 'Student Exchange Program',
     year: 'February 2017 - July 2017',
     points: [
@@ -21,6 +23,7 @@ const degrees = [
   {
     school:
       'Faculty of Sciences and Technology - New University of Lisbon, Portugal',
+    link: 'https://guia.unl.pt/en/2020/fct/program/853#structure',
     degree: 'BSc. in Electrical and Computer Engineering, Top 1',
     year: 'September 2013 - January 2017',
     points: [

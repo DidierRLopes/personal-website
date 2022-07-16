@@ -17,7 +17,7 @@ const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Online Courses</h3>
+      <h2 className="blue-text">Online Courses</h2>
     </div>
     <ul className="course-list">{getRows(data)}</ul>
   </div>

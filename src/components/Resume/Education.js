@@ -7,7 +7,7 @@ const Education = ({ data }) => (
   <div className="education">
     <div className="link-to" id="education" />
     <div className="title">
-      <h3>Education</h3>
+      <h2 className="blue-text">Education</h2>
     </div>
     {data.map((degree) => (
       <Degree data={degree} key={degree.school} />
@@ -20,6 +20,7 @@ Education.propTypes = {
     PropTypes.shape({
       school: PropTypes.string,
       degree: PropTypes.string,
+      link: PropTypes.string,
       year: PropTypes.number,
       points: PropTypes.arrayOf(PropTypes.string),
     }),

@@ -6,7 +6,9 @@ const Degree = ({ data }) => (
     <header>
       <h3 className="degree">{data.degree}</h3>
       <p className="date">{data.year}</p>
-      <p className="school">{data.school}</p>
+      <a className="school" href={data.link}>
+        {data.school}
+      </a>
     </header>
     <ul className="points">
       {data.points.map((point) => (
@@ -20,6 +22,7 @@ Degree.propTypes = {
   data: PropTypes.shape({
     degree: PropTypes.string.isRequired,
     school: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
     year: PropTypes.number.isRequired,
     points: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,

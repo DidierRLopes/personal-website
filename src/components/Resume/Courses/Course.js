@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 const Course = ({ data }) => (
   <li className="course-container">
-    <a href={data.link}>
-      <p className="course-name">
-        <strong>{data.title}</strong>
-      </p>
-      <p className="course-date">
-        {data.date} - {data.university}
-      </p>
-    </a>
+    <header className="course-title">
+      <strong>
+        <a href={data.link}>{data.title}</a>
+      </strong>
+    </header>
+    <p className="course-date">
+      {data.date} - {data.university}
+    </p>
   </li>
 );
 

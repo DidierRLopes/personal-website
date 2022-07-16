@@ -87,6 +87,7 @@
 
 .daterange {
 	margin-bottom: .2em;
+	margin-top: .01em;
 }
 
 .degree-container {
@@ -95,7 +96,7 @@
 	}
 
 	.degree {
-		margin-bottom: .1em;
+		margin-bottom: .2em;
 		text-transform: none;
 		letter-spacing: 0.16em;
 		font-size: .8em;
@@ -103,16 +104,16 @@
 
 	.school {
 		text-transform: none;
-		padding-top: 0.2em;
-		margin-bottom: .8em;
+		margin-bottom: .5em;
 	}
 
 	.date {
 		text-transform: none;
-		margin-bottom: .8em;
+		margin-bottom: .3em;
 	}
 
 	.points {
+		margin-bottom: 2em;
 		li {
 			margin: 0;
 			padding: 0;
@@ -122,22 +123,24 @@
 }
 
 .course-container {
-	margin: .2em;
 	p{
 		margin: 0;
 	}
+	margin: 0;
+	margin-bottom: 1em;
 }
 
 .courses .course-name {
 	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.7em;
   align-items: center;
   font-weight: 400;
   letter-spacing: 0.25em;
   text-transform: uppercase;
+  margin-bottom: 0.1em;
 }
 .courses .course-date {
 	font-size: .7em;
+	margin-top: .1em;
 }
 .courses ul li{
   display: inline;
@@ -151,6 +154,7 @@
 .articles .article-container {
 	margin: .2em;
 	text-align: center;
+	margin-bottom: 1em;
 	p{
 		margin: 0;
 	}
@@ -175,4 +179,8 @@
 	.course-container a{
 		display: block;
 	}
+}
+
+.blue-text {
+	color: navy;
 }

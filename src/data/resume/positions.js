@@ -1,7 +1,7 @@
 const positions = [
   {
     company: 'OpenBB',
-    position: 'Founder, CEO',
+    position: 'Founder & CEO',
     link: 'https://openbb.co',
     daterange: 'September 2021 - Present',
     points: [
@@ -42,11 +42,11 @@ const positions = [
   },
   {
     company: 'Faculty of Sciences and Technology - New University of Lisbon',
-    position: 'Teacher Assistant of Signal Theory',
+    position: 'Teacher Assistant',
     link: 'https://www.fct.unl.pt',
     daterange: 'January 2016 - June 2016',
     points: [
-      'Help 75 students to understand the theory of the course, and guide them throughout their MATLAB assignments.',
+      'Help 75 students to understand the theory of the Signal Theory course, and guide them throughout their MATLAB assignments.',
     ],
   },
 ];
