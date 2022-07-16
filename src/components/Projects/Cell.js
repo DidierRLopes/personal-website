@@ -5,10 +5,10 @@ const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3>
+        <h2 className="blue-text">
           <a href={data.link}>{data.title}</a>
-        </h3>
-        <p>{data.desc}</p>
+        </h2>
+        <p className="center">{data.desc}</p>
       </header>
       <a href={data.link} className="image">
         <div className="project-img">
