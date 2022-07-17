@@ -19,6 +19,12 @@ const Post = ({ data }) => (
         </div>
       </a>
     </article>
+    <div className="description">
+      <div>
+        {'TAGS: '}
+        {data.categories.join(', ')}
+      </div>
+    </div>
   </div>
 );
 
@@ -28,6 +34,7 @@ Post.propTypes = {
     link: PropTypes.string.isRequired,
     thumbnail: PropTypes.string.isRequired,
     pubDate: PropTypes.string.isRequired,
+    categories: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
 
