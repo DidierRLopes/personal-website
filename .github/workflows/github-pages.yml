@@ -1,32 +1,32 @@
-name: GitHub Pages
+# name: GitHub Pages
 
-on:
-  push:
-    branches: [ main ]
-jobs:
-  deployment:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version-file: '.nvmrc'
-    - name: Install
-      run: npm ci
-    - name: Build and Deploy
-      env:
-        NODE_ENV: production
-        # Remove this line if you would like to skip using google analytics
-        REACT_APP_GA_TRACKING_ID: UA-68649021-1
-        # This is set automatically by github
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/didierrlopes/personal-site.git
-          npm run deploy
+# on:
+#   push:
+#     branches: [ main ]
+# jobs:
+#   deployment:
+#     runs-on: ubuntu-latest
+#     environment: production
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v3
+#       with:
+#         persist-credentials: false
+#     - name: Setup Node
+#       uses: actions/setup-node@v3
+#       with:
+#         node-version-file: '.nvmrc'
+#     - name: Install
+#       run: npm ci
+#     - name: Build and Deploy
+#       env:
+#         NODE_ENV: production
+#         # Remove this line if you would like to skip using google analytics
+#         REACT_APP_GA_TRACKING_ID: UA-68649021-1
+#         # This is set automatically by github
+#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       run: |
+#           git config user.name "Automated"
+#           git config user.email "actions@users.noreply.github.com"
+#           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/didierrlopes/personal-site.git
+#           npm run deploy
