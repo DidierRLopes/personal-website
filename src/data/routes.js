@@ -21,8 +21,8 @@ const routes = [
     path: '/projects',
   },
   {
-    label: 'Contact',
-    path: '/contact',
+    label: 'Blog',
+    path: '/blog',
   },
 ];
 
