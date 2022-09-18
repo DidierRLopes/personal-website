@@ -108,7 +108,7 @@ const data = [
   {
     title: 'Similar Stocks',
     link: 'https://github.com/DidierRLopes/similarstocks',
-    image: '/images/projects/harvest.jpg',
+    image: '/images/projects/similar_stocks.png',
     desc: 'Similar stocks based on their description through NLP models',
     language: 'Python',
   },

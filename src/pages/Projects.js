@@ -17,7 +17,7 @@ const Projects = () => (
           <h2 data-testid="heading">
             <Link to="/projects">Projects</Link>
           </h2>
-          <p>&quot;Unfortunately today I can&#39;t, I have plans.&quot;</p>
+          <p>&quot;<em>Unfortunately today I can&#39;t, I have plans.&quot;</em></p>
           <p>The plans:</p>
         </div>
       </header>

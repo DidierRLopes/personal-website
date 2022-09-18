@@ -18,13 +18,13 @@ const Stats = () => (
           <h2 data-testid="heading">
             <Link to="stats">Stats</Link>
           </h2>
-          <div className="link-container">
+          <div className="link-container" style={{ display: 'flex' }}>
             {sections.map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>
-                  {' | '}
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'|'}&nbsp;
                   {sec}
-                  {' | '}
+                  &nbsp;{'|'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
               </h4>
             ))}
