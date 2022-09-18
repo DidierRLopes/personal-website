@@ -67,6 +67,10 @@ export const books2read = [
     author: 'Balaji Srinivasan',
   },
   {
+    title: 'Hitchhikers Guide to the Galaxy',
+    author: 'Douglas Adams',
+  },
+  {
     title: 'The Great CEO Within: The Tactical Guide to Company Building',
     author: 'Matt Mochary',
   },
