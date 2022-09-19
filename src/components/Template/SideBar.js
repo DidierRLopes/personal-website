@@ -21,8 +21,9 @@ const SideBar = () => (
       <h2>CONTACT ME</h2>
       <p>
         <a href="https://cal.com/didierlopes/15min">
-          didier.lopes@openbb.finance
-        </a>
+          schedule a 15 min meeting
+        </a><br />
+        didier.lopes@openbb.finance
       </p>
       <ul className="actions">
         <li>
