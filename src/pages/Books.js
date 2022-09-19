@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 import Book from '../components/Books/Book';
 import { booksread, books2read } from '../data/books';
 
-const sections = ['Recommendation', 'Reading', 'Next', 'Already Read'];
+const sections = ['Reading', 'Next', 'Already Read'];
 
 const Reading = () => (
   <Main title="Books" description="Didier Rodrigues Lopes Books.">
@@ -30,14 +30,6 @@ const Reading = () => (
         </div>
       </header>
       <div>
-        <div className="link-to" id="recommendation" />
-        <div className="title">
-          <h2 className="blue-text">Recommendation</h2>
-        </div>
-        <p>ADD A FORM</p>
-      </div>
-      <hr />
-      <div>
         <div className="link-to" id="reading" />
         <div className="title">
           <h2 className="blue-text">Reading</h2>
@@ -51,6 +43,7 @@ const Reading = () => (
         <div className="link-to" id="next" />
         <div className="title">
           <h2 className="blue-text">Next</h2>
+          <p><center>(not in any particular order - feel free to suggest something)</center></p>
         </div>
         {books2read.slice(1).map((book) => (
           <Book data={book} key={book.title} />

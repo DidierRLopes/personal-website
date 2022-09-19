@@ -42,7 +42,10 @@ const Blog = () => {
             <h2 data-testid="heading">
               <Link to="/blog">Blog</Link>
             </h2>
-            <p>Some of my written thoughts</p>
+            <p>
+              Some of my written thoughts <br />
+              For my OpenBB blogposts check <strong><a href="https://openbb.co/blog">HERE</a></strong>
+            </p>
           </div>
         </header>
         {usePosts}

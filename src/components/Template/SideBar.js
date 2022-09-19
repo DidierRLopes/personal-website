@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>CONTACT ME</h2>
       <p>
-        <a href="https://cal.com/didierlopes/30min">
+        <a href="https://cal.com/didierlopes/15min">
           didier.lopes@openbb.finance
         </a>
       </p>
