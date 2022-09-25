@@ -1,5 +1,9 @@
 export const booksread = [
   {
+    title: 'The Lean Startup',
+    author: 'Eric Ries',
+  },
+  {
     title: 'The Fractal Geometry of Nature',
     author: 'Benoit B. Mandelbrot',
   },
@@ -59,16 +63,12 @@ export const booksread = [
 
 export const books2read = [
   {
-    title: 'The Lean Startup',
-    author: 'Eric Ries',
+    title: 'Hitchhikers Guide to the Galaxy',
+    author: 'Douglas Adams',
   },
   {
     title: 'The Network State: How To Start a New Country',
     author: 'Balaji Srinivasan',
-  },
-  {
-    title: 'Hitchhikers Guide to the Galaxy',
-    author: 'Douglas Adams',
   },
   {
     title: 'The Great CEO Within: The Tactical Guide to Company Building',
@@ -125,5 +125,9 @@ export const books2read = [
   {
     title: 'The intelligent investor',
     author: 'Benjamin Graham',
+  },
+  {
+    title: 'High Output Management',
+    author: 'Andrew S. Grove',
   },
 ];
