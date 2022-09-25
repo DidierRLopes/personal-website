@@ -11,6 +11,11 @@ const articles = [
     conference:
       '2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA)',
   },
+  {
+    title: 'Forecasting models for time-series: a comparative study between classical methodologies and Deep Learning',
+    link: 'https://ciencia.iscte-iul.pt/publications/forecasting-models-for-time-series-a-comparative-study-between-classical-methodologies-and-deep/83651',
+    conference: 'XXV Portuguese Statistical Society (SPE)',
+  },
 ];
 
 export default articles;
