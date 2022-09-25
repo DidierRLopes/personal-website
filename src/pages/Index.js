@@ -14,7 +14,9 @@ const Index = () => (
         </div>
       </header>
       <ul>
-        <li>I am Portuguese 🇵🇹, was born in Switzerland 🇨🇭, and currently live in London 🇬🇧.</li>
+        <li>I am Portuguese 🇵🇹, but I was born in Switzerland 🇨🇭,
+          and now I currently live in London 🇬🇧.
+        </li>
         <li>I&apos;m the author behind the viral{' '}
           <a href="https://www.vice.com/en/article/qjp9vp/gamestonk-terminal-is-a-diy-meme-stock-version-of-bloomberg-terminal">Gamestonk Terminal</a>.
           Read my story <a href="https://openbb.co/blog/gme-didnt-take-me-to-the-moon-but-gamestonk-terminal-did">here</a>.
