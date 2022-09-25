@@ -27,7 +27,6 @@ Cell.propTypes = {
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
     language: PropTypes.string.isRequired,
   }).isRequired,
