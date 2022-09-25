@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Personal from '../components/Stats/Personal';
-import OpenBBProgress from '../components/Stats/OpenBB Progress';
+import OpenBBProgress from '../components/Stats/OpenBBProgress';
 import Travel from '../components/Stats/Travel';
-import OpenSourceStats from '../components/Stats/Open Source';
+import OpenSourceStats from '../components/Stats/OpenSource';
 
 const sections = ['Personal', 'Open Source', 'Travel', 'OpenBB Progress'];
 
