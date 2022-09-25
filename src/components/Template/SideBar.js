@@ -32,7 +32,7 @@ const SideBar = () => (
               Learn More
             </Link>
           ) : (
-            <Link to="/about" className="button">
+            <Link to="/" className="button">
               About Me
             </Link>
           )}
