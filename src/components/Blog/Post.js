@@ -13,7 +13,7 @@ const Post = ({ data }) => (
       <a href={data.link} className="image">
         <div className="project-img">
           <img
-            src={`${process.env.PUBLIC_URL}${data.thumbnail}`}
+            src={`${data.thumbnail}`}
             alt={data.title}
           />
         </div>
