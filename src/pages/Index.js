@@ -33,7 +33,7 @@ const Index = () => (
       </p>
       <p>
         Open source is the way. The code behind this website is available{' '}
-        <a href="https://github.com/didierlopes/personal-site">here</a>.
+        <a href="https://github.com/didierlopes/personal-website">here</a>.
       </p>
     </article>
   </Main>
