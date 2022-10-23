@@ -4,5 +4,6 @@ The basis of this website was taken from [mldangelo.com](https://mldangelo.com).
 
 Thanks [Jose Donato](https://github.com/jose-donato) for helping me with everything I know about web development.
 
+Run using: `npm start`
 
 WORK IN PROGRESS

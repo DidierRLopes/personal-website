@@ -56,6 +56,13 @@ const data = [
     language: 'Python',
   },
   {
+    title: 'Twitter Thread to LinkedIn Carousel',
+    link: 'https://github.com/DidierRLopes/thread-to-carousel',
+    image: '/images/projects/twittercarousel.png',
+    desc: 'Convert Twitter thread into LinkedIn carousel',
+    language: 'Python',
+  },
+  {
     title: 'Unofficial CNN Fear and Greed Index',
     link: 'https://github.com/DidierRLopes/fear-greed-index',
     image: '/images/projects/feargreed.png',
