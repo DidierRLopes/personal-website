@@ -59,20 +59,36 @@ export const booksread = [
     title: 'Moonwalking with Einstein',
     author: 'Joshua Foer',
   },
-];
-
-export const books2read = [
   {
     title: 'Hitchhikers Guide to the Galaxy',
     author: 'Douglas Adams',
   },
+];
+
+export const books2read = [
   {
-    title: 'The Network State: How To Start a New Country',
-    author: 'Balaji Srinivasan',
+    title: 'The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to Go from $0 to $100 Million',
+    author: 'Mark Roberge',
+  },
+  {
+    title: 'Hooked',
+    author: 'Nir Eyal',
   },
   {
     title: 'The Great CEO Within: The Tactical Guide to Company Building',
     author: 'Matt Mochary',
+  },
+  {
+    title: "Actionable Gamification: Beyond Points, Badges and Leaderboards",
+    author: "Yu-Kai Chou",
+  },
+  {
+    title: 'Blitzscaling',
+    author: 'Reid Hoffman',
+  },
+  {
+    title: 'The Network State: How To Start a New Country',
+    author: 'Balaji Srinivasan',
   },
   {
     title: 'Story: Substance, Structure, Style, and the Principles of Screenwriting',
@@ -95,28 +111,12 @@ export const books2read = [
     author: 'Ben Horowitz',
   },
   {
-    title: 'The Culture Code - The Secrets of Highly Successful Groups',
-    author: 'Daniel Coyle',
-  },
-  {
     title: 'Inspired: How to Create Tech Products Customers Love',
     author: 'Marty Cagan',
   },
   {
     title: 'The Design of Everyday Things',
     author: 'Donald Norman',
-  },
-  {
-    title: 'Hooked',
-    author: 'Nir Eyal',
-  },
-  {
-    title: 'The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to Go from $0 to $100 Million',
-    author: 'Mark Roberge',
-  },
-  {
-    title: 'Blitzscaling',
-    author: 'Reid Hoffman',
   },
   {
     title: 'The Power Presenter: Technique, Style, and Strategy from Americas Top Speaking Coach',
