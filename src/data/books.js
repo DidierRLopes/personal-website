@@ -79,8 +79,8 @@ export const books2read = [
     author: 'Matt Mochary',
   },
   {
-    title: "Actionable Gamification: Beyond Points, Badges and Leaderboards",
-    author: "Yu-Kai Chou",
+    title: 'Actionable Gamification: Beyond Points, Badges and Leaderboards',
+    author: 'Yu-Kai Chou',
   },
   {
     title: 'Blitzscaling',
