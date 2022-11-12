@@ -63,13 +63,13 @@ export const booksread = [
     title: 'Hitchhikers Guide to the Galaxy',
     author: 'Douglas Adams',
   },
-];
-
-export const books2read = [
   {
     title: 'The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to Go from $0 to $100 Million',
     author: 'Mark Roberge',
   },
+];
+
+export const books2read = [
   {
     title: 'Hooked',
     author: 'Nir Eyal',
@@ -89,6 +89,14 @@ export const books2read = [
   {
     title: 'The Network State: How To Start a New Country',
     author: 'Balaji Srinivasan',
+  },
+  {
+    title: 'How Google Works',
+    author: 'Eric Schmidt, Jonathan Rosenberg',
+  },
+  {
+    title: 'No Rules Rules: Netflix and the Culture of Reinvention',
+    author: 'Reed Hastings, Erin Meyer',
   },
   {
     title: 'Story: Substance, Structure, Style, and the Principles of Screenwriting',
