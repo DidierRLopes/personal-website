@@ -67,13 +67,13 @@ export const booksread = [
     title: 'The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to Go from $0 to $100 Million',
     author: 'Mark Roberge',
   },
-];
-
-export const books2read = [
   {
     title: 'Hooked',
     author: 'Nir Eyal',
   },
+];
+
+export const books2read = [
   {
     title: 'The Great CEO Within: The Tactical Guide to Company Building',
     author: 'Matt Mochary',
@@ -97,6 +97,14 @@ export const books2read = [
   {
     title: 'No Rules Rules: Netflix and the Culture of Reinvention',
     author: 'Reed Hastings, Erin Meyer',
+  },
+  {
+    title: 'Getting Things Done: The Art of Stress-Free Productivity',
+    author: 'David Allen',
+  },
+  {
+    title: 'Disciplined Entrepreneurship: 24 Steps to a Successful Startup',
+    author: 'Bill Aulet',
   },
   {
     title: 'Story: Substance, Structure, Style, and the Principles of Screenwriting',
