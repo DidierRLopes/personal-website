@@ -68,7 +68,7 @@ export const booksread = [
     author: 'Mark Roberge',
   },
   {
-    title: 'Hooked',
+    title: 'Hooked: How to Build Habit-Forming Products',
     author: 'Nir Eyal',
   },
 ];
