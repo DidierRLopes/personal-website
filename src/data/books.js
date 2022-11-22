@@ -4,7 +4,7 @@ export const booksread = [
     author: 'Eric Ries',
   },
   {
-    title: 'The Fractal Geometry of Nature',
+    title: 'The (Mis)Behaviour of Markets: A Fractal View of Risk, Ruin and Reward',
     author: 'Benoit B. Mandelbrot',
   },
   {
@@ -71,20 +71,32 @@ export const booksread = [
     title: 'Hooked: How to Build Habit-Forming Products',
     author: 'Nir Eyal',
   },
-];
-
-export const books2read = [
   {
     title: 'The Great CEO Within: The Tactical Guide to Company Building',
     author: 'Matt Mochary',
   },
-  {
-    title: 'Actionable Gamification: Beyond Points, Badges and Leaderboards',
-    author: 'Yu-Kai Chou',
-  },
+];
+
+export const books2read = [
   {
     title: 'Blitzscaling',
     author: 'Reid Hoffman',
+  },
+  {
+    title: 'Who: The A Method for Hiring',
+    author: 'Geoff Smart',
+  },
+  {
+    title: 'Never Split the Difference: Negotiating as if Your Life Depended on It',
+    author: 'Chris Voss',
+  },
+  {
+    title: 'The 15 Commitments of Conscious Leadership: A New Paradigm for Sustainable Success',
+    author: 'Jim Dethmer',
+  },
+  {
+    title: 'Actionable Gamification: Beyond Points, Badges and Leaderboards',
+    author: 'Yu-Kai Chou',
   },
   {
     title: 'The Network State: How To Start a New Country',
