@@ -56,6 +56,13 @@ const data = [
     language: 'Python',
   },
   {
+    title: 'Worldcup 2022 Sweepstake Slack bot',
+    link: 'https://github.com/DidierRLopes/worldcup2022-sweepstake-slackbot',
+    image: '/images/projects/worldcupsweepstakeslack.png',
+    desc: 'Slack channel daily update about World Cup 2022 sweepstake results',
+    language: 'Python',
+  },
+  {
     title: 'Twitter Thread to LinkedIn Carousel',
     link: 'https://github.com/DidierRLopes/thread-to-carousel',
     image: '/images/projects/twittercarousel.png',
