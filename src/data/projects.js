@@ -49,17 +49,17 @@ const data = [
     language: 'Python',
   },
   {
-    title: 'Time-Series Cross-Validation',
-    link: 'https://github.com/DidierRLopes/timeseries-cv',
-    image: '/images/projects/timeseries_cv.png',
-    desc: 'Time-Series Cross-Validation Module',
-    language: 'Python',
-  },
-  {
     title: 'World Cup 2022 Sweepstake Slack bot',
     link: 'https://github.com/DidierRLopes/worldcup2022-sweepstake-slackbot',
     image: '/images/projects/worldcupsweepstakeslack.png',
     desc: 'Slack channel daily update about World Cup 2022 sweepstake results',
+    language: 'Python',
+  },
+  {
+    title: 'Time-Series Cross-Validation',
+    link: 'https://github.com/DidierRLopes/timeseries-cv',
+    image: '/images/projects/timeseries_cv.png',
+    desc: 'Time-Series Cross-Validation Module',
     language: 'Python',
   },
   {
