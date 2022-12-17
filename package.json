@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DidierRLopes/personal-website/public"
+    "url": "https://github.com/DidierRLopes/personal-website"
   },
   "engines": {
     "node": ">=14.x"
