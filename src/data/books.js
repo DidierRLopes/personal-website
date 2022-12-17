@@ -158,4 +158,8 @@ export const books2read = [
     title: 'High Output Management',
     author: 'Andrew S. Grove',
   },
+  {
+    title: "Don't Make Me Think: A Common Sense Approach to Web Usability",
+    author: 'Steve Krug',
+  },
 ];
