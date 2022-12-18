@@ -24,7 +24,7 @@ const SideBar = () => (
 
     <div className="py-4 px-3 rounded-xl dark:bg-gray-400 text-white">
       <p className="text-xl uppercase font-bold mb-2">REACH OUT</p>
-      <div className="dark:bg-gray-800 text-white font-light hover:text-black hover:bg-white py-2 px-4 border border-black hover:border-transparent content-center align-middle rounded">
+      <div className="_btn-tertiary">
         <a
           href="https://cal.com/didierlopes/15min"
           target="_blank"
@@ -33,7 +33,7 @@ const SideBar = () => (
           15 min meeting
         </a>
       </div>
-      <p className="text-sm font-ligth my-4">didier.lopes@openbb.finance</p>
+      <p className="text-sm font-ligth my-4">didier.lopes [at] openbb.finance</p>
       {!window.location.pathname.includes('/resume') ? (
         <Link to="/resume" className="w-120">
           Learn More

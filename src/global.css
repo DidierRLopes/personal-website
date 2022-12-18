@@ -2,6 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  ._chevron {
+    @apply inline-flex h-10 w-10 -translate-x-1 cursor-pointer items-center justify-center rounded-[4px] border border-gray-300 bg-gray-900 text-gray-300 hover:border-white hover:text-white active:translate-y-0.5 disabled:pointer-events-none disabled:border-gray-700 disabled:bg-gray-850 disabled:text-gray-700;
+  }
+  ._second-title {
+    @apply text-lg font-bold uppercase tracking-widest;
+  }
+  ._divider {
+    @apply h-[1px] w-full bg-gray-600;
+  }
+  ._code {
+    @apply rounded-[4px] border border-gray-400 bg-gray-800 p-4 text-gray-400;
+  }
+  ._modal-close {
+    @apply absolute top-2 right-2 rounded-[4px] text-gray-200 hover:text-white focus:outline focus:outline-2 focus:outline-gray-500 md:top-[40px] md:right-[46px];
+  }
+  ._modal {
+    @apply card fixed top-1/2 left-1/2 z-50 h-[90%] max-h-[608px] w-[90%] max-w-[568px] -translate-x-1/2 -translate-y-1/2 animate-fade-in overflow-auto bg-gray-900 p-2 duration-300 focus:outline-none md:p-10;
+  }
+  ._modal-overlay {
+    @apply fixed inset-0 z-40 bg-gray-900 opacity-60;
+  }
+  ._modal-title {
+    @apply _second-title text-white;
+  }
+  ._hyper-link {
+    @apply text-burgundy-300 underline hover:text-burgundy-400 active:text-burgundy-500 disabled:text-gray-600;
+  }
+  ._group-tab {
+    @apply mb-8 flex items-center gap-10;
+  }
+  ._tab {
+    @apply whitespace-nowrap border-b border-transparent py-2 uppercase tracking-widest text-gray-600 hover:text-gray-400 radix-state-active:border-b radix-state-active:border-gray-200 radix-state-active:text-gray-200 radix-state-active:hover:text-white;
+  }
+  ._link {
+    @apply rounded-md text-gray-400 hover:text-white focus:text-white active:text-white disabled:text-gray-600;
+  }
+  ._link-common {
+    @apply text-gray-400 hover:bg-gray-800 hover:text-gray-200 focus:bg-gray-800 focus:outline-2 focus:outline-gray-500 active:bg-gray-700 active:text-white disabled:text-gray-600;
+  }
+  ._link-icon {
+    @apply _link-common rounded-[4px] p-2 hover:bg-gray-800 hover:text-white focus:outline focus:outline-2 focus:outline-gray-500;
+  }
+  ._hyper-link {
+    @apply text-burgundy-300 !underline hover:text-burgundy-400 active:text-burgundy-500 disabled:text-gray-600;
+  }
+  ._btn-common {
+    @apply inline-flex w-full items-center justify-center gap-2 rounded-[4px] py-2 px-6 text-center !no-underline transition duration-150 ease-out md:w-fit;
+  }
+  ._btn {
+    @apply _btn-common bg-gray-100 text-gray-800 hover:bg-white focus:outline focus:outline-2 focus:outline-gray-500 active:bg-gray-200 hover:active:text-gray-900 disabled:bg-gray-300 disabled:text-gray-500 active:disabled:bg-gray-300 active:disabled:text-gray-500;
+  }
+  ._btn-secondary {
+    @apply _btn-common border border-gray-300 text-gray-300 outline-offset-0 hover:border-white hover:text-white focus:outline focus:outline-2 focus:outline-gray-500 active:border-white active:bg-gray-800 active:text-white disabled:border-gray-500 disabled:bg-transparent disabled:text-gray-500;
+  }
+  ._btn-tertiary {
+    @apply _btn-common bg-gray-900 text-gray-50 hover:bg-gray-800 hover:text-white focus:bg-gray-900 focus:outline focus:outline-2 focus:outline-gray-500 active:bg-gray-700 active:text-white disabled:bg-gray-500 disabled:text-gray-700;
+  }
+}
+
 /*
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
