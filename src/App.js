@@ -10,7 +10,7 @@ const { PUBLIC_URL } = process.env;
 // which pages are lazy loaded in the future.
 const Blog = lazy(() => import('./pages/Blog'));
 const Index = lazy(() => import('./pages/Index'));
-// const NotFound = lazy(() => import('./pages/NotFound'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
