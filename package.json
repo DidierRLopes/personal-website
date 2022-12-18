@@ -1,11 +1,11 @@
 {
   "name": "personal-website",
   "version": "5.0.0",
-  "homepage": "https://DidierRLopes.github.io/",
+  "homepage": "https://DidierRLopes.github.io/personal-website",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DidierRLopes/personal-website/"
+    "url": "https://github.com/DidierRLopes/personal-website.git"
   },
   "engines": {
     "node": ">=14.x"
