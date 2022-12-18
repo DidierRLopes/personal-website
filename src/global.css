@@ -1,4 +1,7 @@
-@import-normalize;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
@@ -2839,7 +2842,7 @@ body.single #wrapper {
   width: 100%;
 }
 
-/* Sidebar */
+/*  
 #sidebar {
   margin-right: 3em;
   min-width: 22em;
@@ -2864,6 +2867,7 @@ body.single #wrapper {
     width: 100%;
   }
 }
+*/
 
 /* Intro */
 #intro .logo {
