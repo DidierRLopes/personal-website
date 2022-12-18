@@ -10,7 +10,7 @@ const { PUBLIC_URL } = process.env;
 // which pages are lazy loaded in the future.
 const Blog = lazy(() => import('./pages/Blog'));
 const Index = lazy(() => import('./pages/Index'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+// const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
@@ -21,18 +21,19 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <div className="bg-indigo-900 text-center py-4 lg:px-4">
         <div className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
-          <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">NOTE</span>
+          <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">NOTE2</span>
           <span className="font-semibold mr-2 text-left flex-auto">Currently learning frontend and converting css to Tailwind</span>
         </div>
       </div>
       <Switch>
-        <Route path="/*" component={Index} />
+        <Route exact path="/" component={Index} />
         <Route path="/projects" component={Projects} />
         <Route path="/stats" component={Stats} />
         <Route path="/blog" component={Blog} />
         <Route path="/resume" component={Resume} />
         <Route path="/books" component={Books} />
-        <Route component={NotFound} status={404} />
+        { /* <Route component={NotFound} status={404} /> */ }
+        <Route path="*" component={Index} />
       </Switch>
     </Suspense>
   </BrowserRouter>
