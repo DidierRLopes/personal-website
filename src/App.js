@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './global.css'; // All of our styles
 
@@ -17,7 +17,7 @@ const Stats = lazy(() => import('./pages/Stats'));
 const Books = lazy(() => import('./pages/Books'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  <Router basename={PUBLIC_URL}>
     <div className="bg-indigo-900 text-center py-4 lg:px-4">
       <div className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
         <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">NOTE</span>
@@ -35,7 +35,7 @@ const App = () => (
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
-  </BrowserRouter>
+  </Router>
 );
 
 export default App;
