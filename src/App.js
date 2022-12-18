@@ -32,7 +32,7 @@ const App = () => (
         <Route path="/blog" component={Blog} />
         <Route path="/resume" component={Resume} />
         <Route path="/books" component={Books} />
-        <Route path="*" component={Index} />
+        <Route path="/*" component={Index} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
