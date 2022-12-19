@@ -1,41 +1,45 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
 const Index = () => (
   <Main description="Didier Rodrigues Lopes personal website">
-    <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading">
-            <Link to="/">About Me</Link>
-          </h2>
-        </div>
-      </header>
-      <ul>
-        <li>I am Portuguese 🇵🇹, but I was born in Switzerland 🇨🇭,
-          and now I currently live in London 🇬🇧.
-        </li>
-        <li>I&apos;m the author behind the viral{' '}
-          <a href="https://www.vice.com/en/article/qjp9vp/gamestonk-terminal-is-a-diy-meme-stock-version-of-bloomberg-terminal">Gamestonk Terminal</a>.
-          Read my story <a href="https://openbb.co/blog/gme-didnt-take-me-to-the-moon-but-gamestonk-terminal-did">here</a>.
-        </li>
-        <li>When I&apos;m not working on OpenBB I play football,
-          do boxing, code, invest, travel or play Switch.
-        </li>
-      </ul>
-      <p className="center">
-        <img src="https://user-images.githubusercontent.com/25267873/134752033-18df2fdc-58d8-413f-8b61-2a17b0c8271c.JPG" width="500" alt="Didier and Morty" />
+    <div className="container content-center text-center py-4 align-center justify-between mx-auto">
+      <div className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#363636] text-white border-spacing-3 mb-5">
         <p>
-          Me and Morty in a snowy London.
+          I am Portuguese 🇵🇹, but I was born in Switzerland 🇨🇭,
+          and now I currently live in London 🇬🇧.
         </p>
-      </p>
-      <p>
-        Open source is the way. The code behind this website is available{' '}
-        <a href="https://github.com/didierrlopes/personal-website">here</a>.
-      </p>
-    </article>
+        <p>
+          I&apos;m the author behind the viral{' '}
+          <a href="https://www.vice.com/en/article/qjp9vp/gamestonk-terminal-is-a-diy-meme-stock-version-of-bloomberg-terminal">
+            Gamestonk Terminal
+          </a>.
+        </p>
+        <p>
+          Read my story <a href="https://openbb.co/blog/gme-didnt-take-me-to-the-moon-but-gamestonk-terminal-did">here</a>.
+          When I&apos;m not working on OpenBB I play football,
+          do boxing, code, invest, travel or play Switch.
+        </p>
+      </div>
+      <div className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#363636] text-white border-spacing-3 mb-5">
+        <figure className="center content-center text-white mx-auto align-center justify-between">
+          <img
+            className="rounded-3xl mx-auto"
+            src="https://user-images.githubusercontent.com/25267873/134752033-18df2fdc-58d8-413f-8b61-2a17b0c8271c.JPG"
+            width="500"
+            alt="Didier and Morty"
+          />
+          <figcaption>Me and Morty in a snowy London.</figcaption>
+        </figure>
+      </div>
+      <div className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#363636] text-white">
+        <p>
+          Open source is the way. The code behind this website is available{' '}
+          <a href="https://github.com/didierrlopes/personal-website">here</a>.
+        </p>
+      </div>
+    </div>
   </Main>
 );
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ContactIcons from '../Contact/ContactIcons';
+import ContactIcons from '../components/Contact/ContactIcons';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
-const SideBar = () => (
-  <aside className="w-64 content-center text-center" aria-label="Sidebar">
-    <div className="overflow-y-auto py-4 rounded-xl dark:bg-gray-800">
+const Contacts = () => (
+  <aside className="flex flex-1 overflow-hidden overflow-y-auto w-64 content-center text-center rounded-xl darker_grey" aria-label="Sidebar">
+    <div className="py-4 ">
       <Link to="/">
         <img
           className="rounded-full mx-auto"
@@ -52,4 +52,4 @@ const SideBar = () => (
   </aside>
 );
 
-export default SideBar;
+export default Contacts;

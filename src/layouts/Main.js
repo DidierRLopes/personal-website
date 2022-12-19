@@ -4,7 +4,6 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
-import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Main = (props) => (
@@ -19,10 +18,12 @@ const Main = (props) => (
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
-    <div id="wrapper">
+    <div className="flex flex-col h-screen">
       <Navigation />
-      <div id="main">{props.children}</div>
-      {props.fullPage ? null : <SideBar />}
+      <div>
+        {props.children}
+      </div>
+      { /* {props.fullPage ? null : <SideBar />} */ }
     </div>
   </HelmetProvider>
 );
@@ -32,14 +33,14 @@ Main.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
-  fullPage: PropTypes.bool,
+  // fullPage: PropTypes.bool,
   title: PropTypes.string,
   description: PropTypes.string,
 };
 
 Main.defaultProps = {
   children: null,
-  fullPage: false,
+  // fullPage: false,
   title: null,
   description: "Didier Rodrigues Lopes's personal website.",
 };
