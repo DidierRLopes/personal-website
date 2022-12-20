@@ -25,6 +25,10 @@ const routes = [
     path: '/books',
   },
   {
+    label: 'Videos',
+    path: '/videos',
+  },
+  {
     label: 'Contacts',
     path: '/contacts',
   },

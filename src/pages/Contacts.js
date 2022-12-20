@@ -6,7 +6,7 @@ import ContactIcons from '../components/Contact/ContactIcons';
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Contacts = () => (
-  <aside className="flex flex-1 overflow-hidden overflow-y-auto w-64 content-center text-center rounded-xl darker_grey" aria-label="Sidebar">
+  <aside className="flex flex-1 overflow-hidden overflow-y-auto w-64 content-center text-center rounded-xl darker_black" aria-label="Sidebar">
     <div className="py-4 ">
       <Link to="/">
         <img

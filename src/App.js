@@ -10,26 +10,26 @@ const { PUBLIC_URL } = process.env;
 // which pages are lazy loaded in the future.
 const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
+const Books = lazy(() => import('./pages/Books'));
 /*
 const Blog = lazy(() => import('./pages/Blog'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Stats = lazy(() => import('./pages/Stats'));
-const Books = lazy(() => import('./pages/Books'));
 */
 
 const App = () => (
-  <div className="bg-[#202022]">
+  <div className="bg-[#040406]">
     <BrowserRouter basename={PUBLIC_URL}>
       <Suspense fallback={<Main />}>
         <Switch>
           <Route exact path="/" component={Index} />
           <Route path="/resume" component={Resume} />
+          <Route path="/books" component={Books} />
           { /*
           <Route path="/projects" component={Projects} />
           <Route path="/stats" component={Stats} />
           <Route path="/blog" component={Blog} />
-          <Route path="/books" component={Books} />
           <Route component={NotFound} status={404} />
           */ }
         </Switch>

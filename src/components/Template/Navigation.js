@@ -7,7 +7,7 @@ import routes from '../../data/routes';
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => (
   <div>
-    <nav className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#2B2B2C]">
+    <nav className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#040406]">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link
           to="/"
@@ -20,7 +20,7 @@ const Navigation = () => (
           <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:bg-[#2B2B2C] dark:border-gray-700">
+          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:bg-[#040406] dark:border-gray-700">
             {routes.filter((l) => !l.index).map((l) => (
               <li key={l.label}>
                 <Link
