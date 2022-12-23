@@ -18,7 +18,7 @@ const Main = (props) => (
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col">
       <Navigation />
       <div>
         {props.children}

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -13,37 +12,20 @@ import positions from '../data/resume/positions';
 import courses from '../data/resume/courses';
 import articles from '../data/resume/articles';
 
-const sections = ['Experience', 'Articles', 'Education', 'Courses'];
+// const sections = ['Experience', 'Articles', 'Education', 'Courses'];
 
 const Resume = () => (
   <Main title="Resume" description="Didier Rodrigues Lopes Resume">
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading">
-            <Link to="resume">Resume</Link>
-          </h2>
-          <div className="link-container" style={{ display: 'flex' }}>
-            {sections.map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'|'}&nbsp;
-                  {sec}
-                  &nbsp;{'|'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </a>
-              </h4>
-            ))}
-          </div>
-        </div>
-      </header>
-      <Experience data={positions} />
-      <hr />
+    <div>
+      <div className="relative pt-20 rounded-[14px] shadow-md text-white">
+        <Experience data={positions} />
+      </div>
       <Articles data={articles} />
       <hr />
       <Education data={degrees} />
       <hr />
       <Courses data={courses} />
-    </article>
+    </div>
   </Main>
 );
 

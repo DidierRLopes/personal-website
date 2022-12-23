@@ -11,7 +11,7 @@ const positions = [
   },
   {
     company: 'NURVV',
-    position: 'Sensor Fusion Engineer | Embedded Firmware Engineer',
+    position: 'Embedded Firmware Engineer | Sensor Fusion Engineer',
     link: 'https://www.nurvv.com/en-gb/',
     daterange: 'March 2020 - October 2021',
     points: [

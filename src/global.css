@@ -60,6 +60,45 @@
   ._btn-tertiary {
     @apply _btn-common bg-gray-900 text-gray-50 hover:bg-gray-800 hover:text-white focus:bg-gray-900 focus:outline focus:outline-2 focus:outline-gray-500 active:bg-gray-700 active:text-white disabled:bg-gray-500 disabled:text-gray-700;
   }
+  ._h1 {
+    @apply font-medium leading-tight text-5xl mt-0 mb-8 text-blue-200 tracking-wider
+  }
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("https://use.typekit.net/af/5a2c6f/00000000000000003b9ad13c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+    format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("https://use.typekit.net/af/3f03c1/00000000000000003b9ad13e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+    format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../public/fonts/FiraCode-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../public/fonts/FiraCode-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 .lighter_grey {
@@ -70,4 +109,7 @@
   background-color: #2B2B2C;
 }
 
+.darker_black {
+  background-color: #040406;
+}
 
