@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import BookReadIcon from '../../assets/BookReadIcon';
+import BookIcon from '../../assets/BookIcon';
 
 // Single article component
 const Article = ({ data }) => (
@@ -14,7 +14,7 @@ const Article = ({ data }) => (
         title={`${data.title} article`}
         className="__btn ml-32 flex absolute -left-3 justify-center items-center w-10 h-10 rounded-sm ring-9 ring-white text-black hover:text-white"
       >
-        <BookReadIcon />
+        <BookIcon />
       </a>
       <strong>{data.title}</strong>
       <p className="_subtitle">{data.conference}</p>
