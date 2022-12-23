@@ -19,23 +19,21 @@ const Stats = lazy(() => import('./pages/Stats'));
 */
 
 const App = () => (
-  <div className="bg-[#040406]">
-    <BrowserRouter basename={PUBLIC_URL}>
-      <Suspense fallback={<Main />}>
-        <Switch>
-          <Route exact path="/" component={Index} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/books" component={Books} />
-          { /*
-          <Route path="/projects" component={Projects} />
-          <Route path="/stats" component={Stats} />
-          <Route path="/blog" component={Blog} />
-          <Route component={NotFound} status={404} />
-          */ }
-        </Switch>
-      </Suspense>
-    </BrowserRouter>
-  </div>
+  <BrowserRouter basename={PUBLIC_URL}>
+    <Suspense fallback={<Main />}>
+      <Switch>
+        <Route exact path="/" component={Index} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/books" component={Books} />
+        { /*
+        <Route path="/projects" component={Projects} />
+        <Route path="/stats" component={Stats} />
+        <Route path="/blog" component={Blog} />
+        <Route component={NotFound} status={404} />
+        */ }
+      </Switch>
+    </Suspense>
+  </BrowserRouter>
 );
 
 export default App;

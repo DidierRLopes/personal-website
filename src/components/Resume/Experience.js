@@ -31,7 +31,7 @@ dark:focus:ring-gray-700">
 </a>
 */
 
-// Job component
+// Single job component
 const Job = ({ data }) => (
   <div>
     <li className="mb-10 ml-8">
@@ -40,7 +40,7 @@ const Job = ({ data }) => (
           <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
         </svg>
       </span>
-      <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+      <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
         {data.position}
         <a
           target="_blank"
@@ -48,15 +48,15 @@ const Job = ({ data }) => (
           href={data.link}
           title={`${data.company} website`}
         >
-          <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3 hover:text-white hover:bg-blue-800">
+          <span className="__btn">
             {data.company}
           </span>
         </a>
       </h3>
-      <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+      <time className="_subtitle">
         {data.daterange}
       </time>
-      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 list-disc ml-4">
+      <p className="_normaltext mb-4 list-disc ml-4">
         {data.points.map((point) => (
           <li key={point}>{point}</li>
         ))}
@@ -75,10 +75,10 @@ Job.propTypes = {
   }).isRequired,
 };
 
-// Experience component
+// Experience (collection of jobs) component
 const Experience = ({ data }) => (
-  <div>
-    <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-36">
+  <div className="relative pt-20 rounded-[14px] shadow-md text-white">
+    <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
       <h1 className="_h1">
         EXPERIENCE
       </h1>

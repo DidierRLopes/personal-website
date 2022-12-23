@@ -17,9 +17,7 @@ import articles from '../data/resume/articles';
 const Resume = () => (
   <Main title="Resume" description="Didier Rodrigues Lopes Resume">
     <div>
-      <div className="relative pt-20 rounded-[14px] shadow-md text-white">
-        <Experience data={positions} />
-      </div>
+      <Experience data={positions} />
       <Articles data={articles} />
       <hr />
       <Education data={degrees} />
