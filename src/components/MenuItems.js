@@ -21,13 +21,11 @@ const MenuItems = ({ items }) => {
           >
             {items.label}
           </button>
-          <Dropdown submenus={items.submenu} dropdown={dropdown} />
-          {/*
-          <Link
-            to={items.path}
+          <Dropdown
+            label={items.label}
             submenus={items.submenu}
+            dropdown={dropdown}
           />
-          */}
         </div>
       ) : (
         <a href={items.path}>{items.label}</a>

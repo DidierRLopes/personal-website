@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 
 const Header = () => (
-  <header>
+  <header className="sticky top-0 z-50 bg-[#040406]">
     <div className="container flex flex-wrap items-center justify-between mx-auto">
       <a
         href="/"

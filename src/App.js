@@ -42,15 +42,17 @@ const App = () => (
 const App = () => (
   <div>
     <Header />
-    <BrowserRouter basename={PUBLIC_URL}>
-      <Suspense fallback={<Header />}>
-        <Switch>
-          <Route exact path="/" component={Index} />
-          <Route path="/resume" component={Resume} />
-          <Route component={NotFound} status={404} />
-        </Switch>
-      </Suspense>
-    </BrowserRouter>
+    <div className="relative">
+      <BrowserRouter basename={PUBLIC_URL}>
+        <Suspense fallback={<Header />}>
+          <Switch>
+            <Route exact path="/" component={Index} />
+            <Route path="/resume" component={Resume} />
+            <Route component={NotFound} status={404} />
+          </Switch>
+        </Suspense>
+      </BrowserRouter>
+    </div>
   </div>
 );
 
