@@ -197,4 +197,9 @@ export const books2read = [
     author: 'Steve Krug',
     image: 'https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51WS36aA2BL.jpg',
   },
+  {
+    title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
+    author: 'Morgan Housel',
+    image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
+  },
 ];
