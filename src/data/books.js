@@ -1,5 +1,10 @@
 export const booksread = [
   {
+    title: 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!',
+    author: 'Robert T. Kiyosaki',
+    images: 'https://m.media-amazon.com/images/I/81PuKheA8xL.jpg',
+  },
+  {
     title: 'The Lean Startup',
     author: 'Eric Ries',
     image: 'https://m.media-amazon.com/images/I/81RCff1NpnL.jpg',
