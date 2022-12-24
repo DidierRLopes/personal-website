@@ -24,7 +24,9 @@ const MenuItems = ({ items }) => {
           >
             {items.label}
             <ChevronDownIcon
-              className={clsx('tw-transition', { '-rotate-90': dropdown })}
+              className={
+                clsx('tw-transition', { '-rotate-90': dropdown })
+              }
             />
           </button>
           <Dropdown

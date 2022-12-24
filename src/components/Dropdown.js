@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import clsx from 'clsx';
 
 const Dropdown = ({ label, submenus, dropdown }) => (
-  <ul className={`${dropdown ? '' : 'hidden'}`}>
-    {submenus.map((submenu) => (
+  <ul className={`mt-4 ml-4 border-2 rounded-xl border-blue-700 ${dropdown ? '' : 'hidden'}`}>
+    {submenus.map((submenu, index) => (
       <li
         key={submenu.label}
-        className="__navbar flex-none block py-2 pl-3 pr-4 rounded"
+        className="__navbar flex-none block pl-3 pr-4"
       >
         <a
           href={`/${label}#${submenu.path}`}
-          className="flex gap-2 items-center font-semibold m-2 p-2 rounded-sm"
+          className={clsx('flex items-center font-semibold p-2 rounded-sm', { 'border-t-2 border-blue-700': index !== 0 })}
         >
           {submenu.label}
         </a>
