@@ -41,7 +41,7 @@ const positions = [
     ],
   },
   {
-    company: 'Faculty of Sciences and Technology - New University of Lisbon',
+    company: 'Faculty of Sciences and Technology, New University of Lisbon',
     position: 'Teacher Assistant',
     link: 'https://www.fct.unl.pt',
     daterange: 'January 2016 - June 2016',

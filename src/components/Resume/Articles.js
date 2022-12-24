@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import BookIcon from '../../assets/BookIcon';
+import PenIcon from '../../assets/PenIcon';
 
 // Single article component
 const Article = ({ data }) => (
   <div>
-    <li className="mb-10 ml-12">
+    <div className="mb-10 ml-12">
       <a
         target="_blank"
         rel="noreferrer"
@@ -14,11 +14,11 @@ const Article = ({ data }) => (
         title={`${data.title} article`}
         className="__btn ml-32 flex absolute -left-3 justify-center items-center w-10 h-10 rounded-sm ring-9 ring-white text-black hover:text-white"
       >
-        <BookIcon />
+        <PenIcon />
       </a>
       <strong>{data.title}</strong>
       <p className="_subtitle">{data.conference}</p>
-    </li>
+    </div>
   </div>
 );
 
