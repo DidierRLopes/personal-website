@@ -15,7 +15,7 @@ const MenuItems = ({ items }) => {
   return (
     <li className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
       {items.submenu ? (
-        <div className="__navbar">
+        <div className="__navbar relative">
           <button
             type="button"
             aria-expanded={dropdown ? 'true' : 'false'}
@@ -36,7 +36,7 @@ const MenuItems = ({ items }) => {
           />
         </div>
       ) : (
-        <div className="__navbar">
+        <div className="__navbar relative">
           <a href={items.path}>{items.label}</a>
         </div>
       )}

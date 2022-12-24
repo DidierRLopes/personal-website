@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
 const Dropdown = ({ label, submenus, dropdown }) => (
-  <ul className={`mt-4 ml-4 border-2 rounded-xl border-blue-700 ${dropdown ? '' : 'hidden'}`}>
+  <ul className={`absolute mt-4 ml-4 border-2 rounded-xl bg-blue-200 border-blue-700 ${dropdown ? '' : 'hidden'}`}>
     {submenus.map((submenu, index) => (
       <li
         key={submenu.label}
-        className="__navbar flex-none block pl-3 pr-4"
+        className="__navbar block pl-3 pr-4"
       >
         <a
           href={`/${label}#${submenu.path}`}
