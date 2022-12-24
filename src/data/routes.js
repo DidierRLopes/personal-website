@@ -1,12 +1,29 @@
 const routes = [
   {
-    index: true,
     label: 'Didier Rodrigues Lopes',
     path: '/',
   },
   {
     label: 'Resume',
     path: '/resume',
+    submenu: [
+      {
+        label: 'Experience',
+        path: 'experience',
+      },
+      {
+        label: 'Articles',
+        path: 'articles',
+      },
+      {
+        label: 'Education',
+        path: 'education',
+      },
+      {
+        label: 'Courses',
+        path: 'courses',
+      },
+    ],
   },
   {
     label: 'Stats',

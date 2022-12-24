@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 // import Hamburger from './Hamburger';
 import routes from '../../data/routes';
+import MenuItems from '../MenuItems';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => (
@@ -21,16 +22,44 @@ const Navigation = () => (
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:bg-[#040406] dark:border-gray-700">
-            {routes.filter((l) => !l.index).map((l) => (
+            { /* routes.filter((l) => !l.index).map((l) => (
               <li key={l.label}>
                 <Link
                   to={l.path}
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-gray-700 rounded
+                    hover:bg-gray-100 md:hover:bg-transparent md:border-0
+                    md:hover:text-blue-700 md:p-0 dark:text-gray-400
+                    md:dark:hover:text-white dark:hover:bg-gray-700
+                    dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   {l.label}
                 </Link>
               </li>
+            )) */ }
+            {routes.filter((l) => !l.index).map((l) => (
+              <li key={l.label}>
+                <MenuItems
+                  to={l.path}
+                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  {l.label}
+                </MenuItems>
+              </li>
             ))}
+            <li key="resume">
+              <Link
+                to="/resume"
+                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                resume
+                <div className="subnav-content">
+                  <a href="#link1">Link 1</a>
+                  <a href="#link2">Link 2</a>
+                  <a href="#link3">Link 3</a>
+                  <a href="#link4">Link 4</a>
+                </div>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
