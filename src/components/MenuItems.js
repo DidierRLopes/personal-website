@@ -33,6 +33,7 @@ const MenuItems = ({ items }) => {
             label={items.label}
             submenus={items.submenu}
             dropdown={dropdown}
+            setDropdown={setDropdown}
           />
         </div>
       ) : (
@@ -43,26 +44,6 @@ const MenuItems = ({ items }) => {
     </li>
   );
 };
-
-/*
-const MenuItems = ({ items }) => (
-  <li className="">
-    {items.submenu ? (
-      <div>
-        <button type="button" aria-haspopup="menu">
-          {items.label}{' '}
-        </button>
-        <Link
-          to={items.path}
-          submenus={items.submenu}
-        />
-      </div>
-    ) : (
-      <a href={items.path}>{items.label}</a>
-    )}
-  </li>
-);
-*/
 
 MenuItems.propTypes = {
   items: PropTypes.shape({

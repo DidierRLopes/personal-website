@@ -6,7 +6,7 @@ const Header = () => (
     <div className="container flex flex-wrap items-center justify-between mx-auto">
       <a
         href="/"
-        className="block py-2 pl-3 pr-4 text-black rounded md:border-0 md:hover:text-blue-700"
+        className="block py-2 pl-3 pr-4 text-black font-semibold rounded md:border-0 md:hover:text-blue-700"
       >
         Didier Rodrigues Lopes
       </a>
