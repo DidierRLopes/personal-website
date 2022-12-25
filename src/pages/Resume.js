@@ -10,8 +10,6 @@ import positions from '../data/resume/positions';
 import courses from '../data/resume/courses';
 import articles from '../data/resume/articles';
 
-// const sections = ['Experience', 'Articles', 'Education', 'Courses'];
-
 const Resume = () => (
   <div>
     <Experience data={positions} />

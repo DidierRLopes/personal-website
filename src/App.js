@@ -9,6 +9,7 @@ const { PUBLIC_URL } = process.env;
 const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const Stats = lazy(() => import('./pages/Stats'));
 
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
@@ -48,6 +49,7 @@ const App = () => (
           <Switch>
             <Route exact path="/" component={Index} />
             <Route path="/resume" component={Resume} />
+            <Route path="/stats" component={Stats} />
             <Route component={NotFound} status={404} />
           </Switch>
         </Suspense>
