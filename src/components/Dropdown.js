@@ -9,10 +9,13 @@ const Dropdown = ({
   setDropdown,
 }) => {
   function toggle() {
-    setDropdown(false);
+    setDropdown(!dropdown);
   }
   return (
-    <ul className={`absolute mt-4 ml-4 border-2 rounded-xl bg-blue-200 border-blue-700 ${dropdown ? '' : 'hidden'}`}>
+    <ul
+      onMouseLeave={toggle}
+      className={`absolute mt-4 ml-4 border-2 rounded-xl bg-blue-200 border-blue-700 ${dropdown ? '' : 'hidden'}`}
+    >
       {submenus.map((submenu, index) => (
         <li
           key={submenu.label}

@@ -20,6 +20,7 @@ const MenuItems = ({ items }) => {
             type="button"
             aria-expanded={dropdown ? 'true' : 'false'}
             onClick={toggle}
+            onMouseEnter={toggle}
             className="flex w-full items-center justify-between rounded-sm"
           >
             {items.label}
