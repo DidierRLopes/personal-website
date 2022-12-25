@@ -28,6 +28,24 @@ const routes = [
   {
     label: 'Stats',
     path: '/stats',
+    submenu: [
+      {
+        label: 'Personal Stats',
+        path: 'personal-stats',
+      },
+      {
+        label: 'Open Source Stats',
+        path: 'open-source-stats',
+      },
+      {
+        label: 'OpenBB Progress',
+        path: 'openbb-progress',
+      },
+      {
+        label: 'My Travels',
+        path: 'my-travels',
+      },
+    ],
   },
   {
     label: 'Projects',

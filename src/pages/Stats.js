@@ -3,16 +3,14 @@ import React from 'react';
 import PersonalStats from '../components/Stats/PersonalStats';
 import OpenSourceStats from '../components/Stats/OpenSource';
 import OpenBBProgress from '../components/Stats/OpenBBProgress';
-// import Travel from '../components/Stats/Travel';
+import MyTravel from '../components/Stats/MyTravel';
 
 const Stats = () => (
   <div>
     <PersonalStats />
     <OpenSourceStats />
     <OpenBBProgress />
-    { /* <OpenSourceStats />
-    <Travel />
-     */ }
+    <MyTravel />
   </div>
 );
 
