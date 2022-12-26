@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Get the components associated with this page
-import PersonalStats from '../components/Stats/PersonalStats';
-import OpenSourceStats from '../components/Stats/OpenSource';
-import OpenBBProgress from '../components/Stats/OpenBBProgress';
-import MyTravel from '../components/Stats/MyTravel';
+import PersonalStatsSection from '../components/Stats/PersonalStats';
+import OpenSourceStatsSection from '../components/Stats/OpenSource';
+import OpenBBProgressSection from '../components/Stats/OpenBBProgress';
+import MyTravelSection from '../components/Stats/MyTravel';
 
 // Get the data necessary for this page
 import githubData from '../data/stats/githubData';
@@ -12,16 +12,16 @@ import githubData from '../data/stats/githubData';
 const Stats = () => (
   <div>
     <div id="personal-stats">
-      <PersonalStats />
+      <PersonalStatsSection />
     </div>
     <div id="open-source-stats">
-      <OpenSourceStats />
+      <OpenSourceStatsSection />
     </div>
     <div id="openbb-progress">
-      <OpenBBProgress initialGithubData={githubData} />
+      <OpenBBProgressSection initialGithubData={githubData} />
     </div>
     <div id="my-travels">
-      <MyTravel />
+      <MyTravelSection />
     </div>
   </div>
 );

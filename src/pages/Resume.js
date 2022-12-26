@@ -1,31 +1,31 @@
 import React from 'react';
 
 // Get the components associated with this page
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import Courses from '../components/Resume/Courses';
-import Articles from '../components/Resume/Articles';
+import ExperienceSection from '../components/Resume/Experience';
+import ArticlesSection from '../components/Resume/Articles';
+import EducationSection from '../components/Resume/Education';
+import CoursesSection from '../components/Resume/Courses';
 
 // Get the data necessary for this page
-import experience from '../data/resume/experience';
-import articles from '../data/resume/articles';
-import education from '../data/resume/education';
-import courses from '../data/resume/courses';
+import experienceData from '../data/resume/experience';
+import articlesData from '../data/resume/articles';
+import educationData from '../data/resume/education';
+import coursesData from '../data/resume/courses';
 
 // Resume page
 const Resume = () => (
   <div>
     <div id="experience">
-      <Experience data={experience} />
+      <ExperienceSection data={experienceData} />
     </div>
     <div id="articles">
-      <Articles data={articles} />
+      <ArticlesSection data={articlesData} />
     </div>
     <div id="education">
-      <Education data={education} />
+      <EducationSection data={educationData} />
     </div>
     <div id="courses">
-      <Courses data={courses} />
+      <CoursesSection data={coursesData} />
     </div>
   </div>
 );
