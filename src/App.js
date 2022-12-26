@@ -13,6 +13,7 @@ const Stats = lazy(() => import('./pages/Stats'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Blog = lazy(() => import('./pages/Blog'));
 const Books = lazy(() => import('./pages/Books'));
+const Media = lazy(() => import('./pages/Media'));
 
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
@@ -51,6 +52,7 @@ const App = () => (
             <Route path="/projects" component={Projects} />
             <Route path="/blog" component={Blog} />
             <Route path="/books" component={Books} />
+            <Route path="/media" component={Media} />
             <Route component={NotFound} status={404} />
           </Switch>
         </Suspense>
