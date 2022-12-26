@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import ChevronDownIcon from '../assets/ChevronDownIcon';
 
+// Single blogpost component
 const SingleBlog = ({ data }) => (
   <div className="justify-center mb-16 mt-16">
     <div className="w-32 mx-auto">
@@ -43,6 +44,7 @@ SingleBlog.propTypes = {
   }).isRequired,
 };
 
+// Collection of blogposts component
 const Blog = () => {
   const [blogposts, setBlogposts] = useState([]);
 
@@ -82,7 +84,7 @@ const Blog = () => {
               href="https://dro-lopes.medium.com/"
               className="flex items-center justify-center hover:text-blue-200"
             >
-              Follow my Medium profile to see more blogposts
+              Follow my Medium profile to not miss any new blogposts
               <ChevronDownIcon className="-rotate-90" />
             </a>
           </div>

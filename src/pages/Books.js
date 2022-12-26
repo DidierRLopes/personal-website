@@ -1,48 +1,71 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import Main from '../layouts/Main';
-
-import Book from '../components/Books/Book';
 import { booksread, books2read } from '../data/books';
 
-const sections = ['Reading', 'Next', 'Already Read'];
+const Book = ({ data }) => (
+  <div className="justify-center items-center mb-16">
+    <h3 className="justify-center items-center mb-1 text-base text-white">
+      {data.title}
+    </h3>
+    <div className="_subtitle justify-center mb-4">
+      {data.author}
+    </div>
+    <div className="flex justify-center items-center rounded-sm mx-auto">
+      <img
+        src={data.image}
+        alt={data.title}
+        width="150px"
+        className="border-2 border-blue-200 rounded-xl"
+      />
+    </div>
+  </div>
+);
+
+Book.propTypes = {
+  data: PropTypes.shape({
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 const Reading = () => (
-  <Main title="Books" description="Didier Rodrigues Lopes Books.">
-    <div className="text-white">
-      <h2>Books</h2>
-      <div className="link-container" style={{ display: 'flex' }}>
-        {sections.map((sec) => (
-          <h4 key={sec}>
-            <a href={`#${sec.toLowerCase()}`}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'|'}&nbsp;
-              {sec}
-              &nbsp;{'|'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </a>
-          </h4>
-        ))}
+  <div>
+    <div
+      className="relative pt-20 rounded-[14px] shadow-md text-white"
+    >
+      <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
+        <h1 className="_h1 mb-2">
+          BOOKS TO READ
+        </h1>
+        <div className="_subtitle mb-16">
+          <span>Currently reading{' '}</span>
+          <span className="text-white">
+            {books2read[0].title.includes(':') ? books2read[0].title.split(':')[0] : books2read[0].title}
+          </span>
+          <span>{' '}by{' '}</span>
+          <span className="text-white">
+            {books2read[0].author}
+          </span>
+        </div>
       </div>
-      <div className="text-white">
-        <h2 className="blue-text">Reading</h2>
-        <p><strong>{books2read[0].title}<br /></strong>{books2read[0].author}</p>
-      </div>
-      <hr />
-      <div className="text-white mt-20">
-        <h2>Next</h2>
-        <p><center>(not in any particular order - feel free to suggest something)</center></p>
-        {books2read.slice(1).map((book) => (
-          <Book data={book} key={book.title} />
-        ))}
-      </div>
-      <hr />
-      <div className="text-white">
-        <h2>Already Read</h2>
-        {booksread.map((book) => (
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.64),1fr))] p-8 gap-8 ml-16 mr-16">
+        {books2read.map((book) => (
           <Book data={book} key={book.title} />
         ))}
       </div>
     </div>
-  </Main>
+    <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
+      <h1 className="_h1">
+        ALREADY READ
+      </h1>
+      {booksread.map((book) => (
+        <Book data={book} key={book.title} />
+      ))}
+    </div>
+  </div>
 );
 
 export default Reading;
