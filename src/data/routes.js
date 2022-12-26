@@ -48,16 +48,26 @@ const routes = [
     ],
   },
   {
+    label: 'Books',
+    path: '/books',
+    submenu: [
+      {
+        label: 'To Read',
+        path: 'books-to-read',
+      },
+      {
+        label: 'Already Read',
+        path: 'books-already-read',
+      },
+    ],
+  },
+  {
     label: 'Projects',
     path: '/projects',
   },
   {
     label: 'Blog',
     path: '/blog',
-  },
-  {
-    label: 'Books',
-    path: '/books',
   },
   {
     label: 'Videos',

@@ -11,10 +11,14 @@ import booksread from '../data/books/booksread';
 // Books page
 const Books = () => (
   <div>
-    <div>
+    <div
+      id="books-to-read"
+    >
       <BooksToReadSection data={books2read} />
     </div>
-    <div>
+    <div
+      id="books-already-read"
+    >
       <BooksAlreadyReadSection data={booksread} />
     </div>
   </div>
