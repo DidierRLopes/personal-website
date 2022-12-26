@@ -10,6 +10,7 @@ const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Stats = lazy(() => import('./pages/Stats'));
+const Projects = lazy(() => import('./pages/Projects'));
 
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
@@ -20,7 +21,6 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Books = lazy(() => import('./pages/Books'));
 const Blog = lazy(() => import('./pages/Blog'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Projects = lazy(() => import('./pages/Projects'));
 const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
@@ -30,7 +30,6 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/resume" component={Resume} />
         <Route path="/books" component={Books} />
-        <Route path="/projects" component={Projects} />
         <Route path="/stats" component={Stats} />
         <Route path="/blog" component={Blog} />
         <Route component={NotFound} status={404} />
@@ -50,6 +49,7 @@ const App = () => (
             <Route exact path="/" component={Index} />
             <Route path="/resume" component={Resume} />
             <Route path="/stats" component={Stats} />
+            <Route path="/projects" component={Projects} />
             <Route component={NotFound} status={404} />
           </Switch>
         </Suspense>

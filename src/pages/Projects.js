@@ -1,30 +1,59 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Main from '../layouts/Main';
+import PropTypes from 'prop-types';
+import projects from '../data/projects';
+import ChevronDownIcon from '../assets/ChevronDownIcon';
 
-import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+const SingleProject = ({ data }) => (
+  <div className="justify-center items-center mb-16">
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href={data.link}
+    >
+      <h3 className="flex justify-center items-center mb-1 text-lg font-semibold text-white hover:text-blue-700">
+        {data.title}
+        <ChevronDownIcon className="-rotate-90" />
+      </h3>
+    </a>
+    <div className="_subtitle flex justify-center mb-4">
+      {data.desc}
+    </div>
+    <div className="flex justify-center items-center">
+      <img
+        src={`${process.env.PUBLIC_URL}${data.image}`}
+        alt={data.title}
+        width="800px"
+        className="border-2 border-blue-200 rounded-xl"
+      />
+    </div>
+  </div>
+);
+
+SingleProject.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    image: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    language: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 const Projects = () => (
-  <Main
-    title="Projects"
-    description="Learn about Didier Rodrigues Lopes's projects."
-  >
-    <article className="post" id="projects">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading">
-            <Link to="/projects">Projects</Link>
-          </h2>
-          <p>&quot;<em>Unfortunately today I can&#39;t, I have plans.&quot;</em></p>
-          <p>The plans:</p>
-        </div>
-      </header>
-      {data.map((project) => (
-        <Cell data={project} key={project.title} />
+  <div>
+    <div
+      className="relative pt-20 rounded-[14px] shadow-md text-white"
+    >
+      <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
+        <h1 className="_h1">
+          PERSONAL PROJECTS
+        </h1>
+      </div>
+      {projects.map((project) => (
+        <SingleProject data={project} key={project.title} />
       ))}
-    </article>
-  </Main>
+    </div>
+  </div>
 );
 
 export default Projects;
