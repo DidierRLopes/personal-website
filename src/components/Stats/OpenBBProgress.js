@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
 import ChevronDownIcon from '../../assets/ChevronDownIcon';
-import initialData from '../../data/stats/site';
 
 const TableRow = ({
   label, link, value, format,
@@ -74,16 +73,16 @@ Table.propTypes = {
   })).isRequired,
 };
 
-const OpenBBProgress = () => {
-  const [data, setResponseData] = useState(initialData);
+const OpenBBProgress = ({ initialGithubData }) => {
+  const [githubData, updateGithubData] = useState(initialGithubData);
   const fetchData = useCallback(async () => {
     // request must be authenticated if private
     const res = await fetch(
       'https://api.github.com/repos/openbb-finance/openbbterminal',
     );
     const resData = await res.json();
-    setResponseData(
-      initialData.map((field) => ({
+    updateGithubData(
+      initialGithubData.map((field) => ({
         ...field,
         // update value if value was returned by call to github
         value: Object.keys(resData).includes(field.key) ? resData[field.key]
@@ -97,20 +96,30 @@ const OpenBBProgress = () => {
   }, [fetchData]);
 
   return (
-    <div
-      id="openbb-progress"
-      className="relative pt-20 rounded-[14px] shadow-md text-white"
-    >
+    <div className="relative pt-20 rounded-[14px] shadow-md text-white">
       <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
         <h1 className="_h1">
           OPENBB PROGRESS
         </h1>
       </div>
       <div className="text-white">
-        <Table data={data} />
+        <Table data={githubData} />
       </div>
     </div>
   );
+};
+
+OpenBBProgress.propTypes = {
+  initialGithubData: PropTypes.arrayOf(PropTypes.shape({
+    format: PropTypes.func,
+    label: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    value: PropTypes.oneOfType([
+      PropTypes.element,
+      PropTypes.number,
+      PropTypes.string,
+    ]),
+  })).isRequired,
 };
 
 export default OpenBBProgress;

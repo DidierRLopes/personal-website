@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
  * mostly jokes. To see everything returned by the github api, run:
  curl https://api.github.com/repos/openbb-finance/openbbterminal
  */
-const data = [
+const githubData = [
   {
     label: 'Stars',
     key: 'stargazers_count',
@@ -33,4 +33,4 @@ const data = [
   },
 ];
 
-export default data;
+export default githubData;

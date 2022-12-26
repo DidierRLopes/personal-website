@@ -12,6 +12,7 @@ import articles from '../data/resume/articles';
 import education from '../data/resume/education';
 import courses from '../data/resume/courses';
 
+// Resume page
 const Resume = () => (
   <div>
     <div id="experience">
