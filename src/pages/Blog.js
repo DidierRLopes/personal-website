@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ChevronDownIcon from '../assets/ChevronDownIcon';
 
 const SingleBlog = ({ data }) => (
-  <div className="justify-center mb-16">
+  <div className="justify-center mb-16 mt-16">
     <div className="w-32 mx-auto">
       <div className="flex justify-center items-center rounded-xl mb-2 mr-2 px-2.5 py-0.5 text-black bg-blue-200">
         {data.pubDate.split(' ')[0]}
@@ -44,22 +44,18 @@ SingleBlog.propTypes = {
 };
 
 const Blog = () => {
-  const [posts, setPosts] = useState([]);
+  const [blogposts, setBlogposts] = useState([]);
 
   useEffect(() => {
-    const fetchPosts = async () => {
+    const fetchBlogposts = async () => {
       const response = await fetch(
         'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dro-lopes',
       );
-      const postsData = await response.json();
-      setPosts(postsData);
+      const blogpostsData = await response.json();
+      setBlogposts(blogpostsData);
     };
-    fetchPosts();
+    fetchBlogposts();
   }, []);
-
-  const usePosts = posts.status === 'ok' && posts.items.map((post) => (
-    <SingleBlog data={post} key={post.title} />
-  ));
 
   return (
     <div>
@@ -67,15 +63,35 @@ const Blog = () => {
         className="relative pt-20 rounded-[14px] shadow-md text-white"
       >
         <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
-          <h1 className="_h1">
+          <h1 className="_h1 !mb-2">
             BLOGPOSTS
           </h1>
+          <div className="_subtitle text-lg">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://openbb.co/blog/author/didier-lopes"
+              className="flex items-center justify-center hover:text-blue-200"
+            >
+              Check out my OpenBB Blogposts
+              <ChevronDownIcon className="-rotate-90" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://dro-lopes.medium.com/"
+              className="flex items-center justify-center hover:text-blue-200"
+            >
+              Follow my Medium profile to see more blogposts
+              <ChevronDownIcon className="-rotate-90" />
+            </a>
+          </div>
         </div>
-        <p>
-          https://dro-lopes.medium.com/
-          For my OpenBB blogposts check <strong><a href="https://openbb.co/blog/author/didier-lopes">HERE</a></strong>
-        </p>
-        {usePosts}
+        {
+          blogposts.status === 'ok' && blogposts.items.map((post) => (
+            <SingleBlog data={post} key={post.title} />
+          ))
+        }
       </div>
     </div>
   );
