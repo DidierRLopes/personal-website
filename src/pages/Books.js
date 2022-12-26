@@ -18,7 +18,7 @@ const Book = ({ data }) => (
         src={data.image}
         alt={data.title}
         width="200px"
-        className="border-2 rounded-xl "
+        className="border-2 rounded-xl"
       />
     </div>
   </div>
@@ -26,7 +26,6 @@ const Book = ({ data }) => (
 
 Book.propTypes = {
   data: PropTypes.shape({
-    url: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

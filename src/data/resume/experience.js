@@ -1,4 +1,4 @@
-const positions = [
+const experience = [
   {
     company: 'OpenBB',
     position: 'Founder & CEO',
@@ -51,4 +51,4 @@ const positions = [
   },
 ];
 
-export default positions;
+export default experience;

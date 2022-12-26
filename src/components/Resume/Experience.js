@@ -43,10 +43,7 @@ Job.propTypes = {
 
 // Experience (collection of jobs) component
 const Experience = ({ data }) => (
-  <div
-    id="experience"
-    className="relative pt-20 rounded-[14px] shadow-md text-white"
-  >
+  <div className="relative pt-20 rounded-[14px] shadow-md text-white">
     <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
       <h1 className="_h1">
         EXPERIENCE

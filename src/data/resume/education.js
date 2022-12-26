@@ -1,4 +1,4 @@
-const degrees = [
+const education = [
   {
     school: 'Imperial College London, United Kingdom 🇬🇧',
     link: 'https://www.imperial.ac.uk/media/imperial-college/study/programme-specifications/eee/1819/CS-ProgSpec(J9U4)-2018-19---February2019.pdf',
@@ -33,4 +33,4 @@ const degrees = [
   },
 ];
 
-export default degrees;
+export default education;
