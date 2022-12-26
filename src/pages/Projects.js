@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import projects from '../data/projects';
 import ChevronDownIcon from '../assets/ChevronDownIcon';
 
+// Single project component
 const SingleProject = ({ data }) => (
   <div className="justify-center items-center mb-16">
     <a
@@ -39,6 +40,7 @@ SingleProject.propTypes = {
   }).isRequired,
 };
 
+// Collection of projects component
 const Projects = () => (
   <div>
     <div

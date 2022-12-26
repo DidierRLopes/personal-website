@@ -1,17 +1,47 @@
-/* const usePosts = posts.status === 'ok' && posts.items.map((post) => (
-  <div>
-    <h2>{post.title}</h2>
-    <p>{post.pubDate}</p>
-    <p>{post.link}</p>
-    <p>{post.description}</p>
-  </div>
-)); */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import ChevronDownIcon from '../assets/ChevronDownIcon';
 
-import Main from '../layouts/Main';
+const SingleBlog = ({ data }) => (
+  <div className="justify-center mb-16">
+    <div className="w-32 mx-auto">
+      <div className="flex justify-center items-center rounded-xl mb-2 mr-2 px-2.5 py-0.5 text-black bg-blue-200">
+        {data.pubDate.split(' ')[0]}
+      </div>
+    </div>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href={data.link}
+    >
+      <h3 className="flex justify-center items-center mb-1 text-lg font-semibold text-white hover:text-blue-700">
+        {data.title.replace('&gt;&gt;', '>>')}
+        <ChevronDownIcon className="-rotate-90" />
+      </h3>
+    </a>
+    <div className="_subtitle flex justify-center mb-4">
+      {data.categories.join(', ')}
+    </div>
+    <div className="flex justify-center items-center">
+      <img
+        src={`${data.thumbnail}`}
+        alt={data.title}
+        width="800px"
+        className="border-2 border-blue-200 rounded-xl"
+      />
+    </div>
+  </div>
+);
 
-import Post from '../components/Blog/Post';
+SingleBlog.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    thumbnail: PropTypes.string.isRequired,
+    pubDate: PropTypes.string.isRequired,
+    categories: PropTypes.arrayOf(PropTypes.string),
+  }).isRequired,
+};
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -28,29 +58,26 @@ const Blog = () => {
   }, []);
 
   const usePosts = posts.status === 'ok' && posts.items.map((post) => (
-    <Post data={post} key={post.title} />
+    <SingleBlog data={post} key={post.title} />
   ));
 
   return (
-    <Main
-      title="Blog"
-      description="Didier Rodrigues Lopes's blog."
-    >
-      <article className="post" id="blog">
-        <header>
-          <div className="title">
-            <h2 data-testid="heading">
-              <Link to="/blog">Blog</Link>
-            </h2>
-            <p>
-              Some of my written thoughts <br />
-              For my OpenBB blogposts check <strong><a href="https://openbb.co/blog">HERE</a></strong>
-            </p>
-          </div>
-        </header>
+    <div>
+      <div
+        className="relative pt-20 rounded-[14px] shadow-md text-white"
+      >
+        <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
+          <h1 className="_h1">
+            BLOGPOSTS
+          </h1>
+        </div>
+        <p>
+          https://dro-lopes.medium.com/
+          For my OpenBB blogposts check <strong><a href="https://openbb.co/blog/author/didier-lopes">HERE</a></strong>
+        </p>
         {usePosts}
-      </article>
-    </Main>
+      </div>
+    </div>
   );
 };
 
