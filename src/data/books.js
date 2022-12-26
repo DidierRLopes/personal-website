@@ -2,10 +2,10 @@ export const booksread = [
   {
     title: 'Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!',
     author: 'Robert T. Kiyosaki',
-    images: 'https://m.media-amazon.com/images/I/81PuKheA8xL.jpg',
+    image: 'https://m.media-amazon.com/images/I/81PuKheA8xL.jpg',
   },
   {
-    title: 'The Lean Startup',
+    title: 'The Lean Startup: How Constant Innovation Creates Radically Successful Businesses',
     author: 'Eric Ries',
     image: 'https://m.media-amazon.com/images/I/81RCff1NpnL.jpg',
   },
@@ -20,7 +20,7 @@ export const booksread = [
     image: 'https://m.media-amazon.com/images/I/41YNH+7IyiL.jpg',
   },
   {
-    title: 'A Random Walk Down Wall Street',
+    title: 'A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing',
     author: 'Burton G. Malkiel',
     image: 'https://m.media-amazon.com/images/I/51r8SHx7vSL.jpg',
   },
@@ -30,7 +30,7 @@ export const booksread = [
     image: 'https://m.media-amazon.com/images/I/71xnkJc3-yL.jpg',
   },
   {
-    title: 'Atomic Habits',
+    title: 'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones',
     author: 'James Clear',
     image: 'https://m.media-amazon.com/images/I/91bYsX41DVL.jpg',
   },
