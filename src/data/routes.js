@@ -54,6 +54,16 @@ const routes = [
   {
     label: 'Blog',
     path: '/blog',
+    submenu: [
+      {
+        label: 'My posts',
+        path: 'blog',
+      },
+      {
+        label: 'My recommendations',
+        path: 'recommendation',
+      },
+    ],
   },
   {
     label: 'Books',

@@ -1,4 +1,4 @@
-const data = [
+const projects = [
   {
     title: 'OpenBB Terminal',
     link: 'https://github.com/OpenBB-finance/OpenBBTerminal',
@@ -135,4 +135,4 @@ const data = [
   },
 ];
 
-export default data;
+export default projects;
