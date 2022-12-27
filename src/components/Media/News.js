@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import MicrophoneIcon from '../../assets/MicrophoneIcon';
+import NewspaperIcon from '../../assets/NewspaperIcon';
 
-// Single podcast component
-const Podcast = ({ data }) => (
+// Single news article component
+const NewsArticle = ({ data }) => (
   <div>
-    <li className="mb-10 ml-12">
+    <li className="mb-8 ml-12">
       <a
         target="_blank"
         rel="noreferrer"
@@ -14,7 +14,7 @@ const Podcast = ({ data }) => (
         title={`${data.link} school`}
         className="__btn ml-32 flex absolute -left-3 justify-center items-center w-10 h-10 rounded-sm ring-9 ring-white text-black hover:text-white"
       >
-        <MicrophoneIcon />
+        <NewspaperIcon />
       </a>
       <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
         {data.title}
@@ -23,55 +23,50 @@ const Podcast = ({ data }) => (
         {data.date}
       </div>
       <time className="_subtitle text-white">
-        {data.host}
+        {data.magazine}
       </time>
-      <p className="_normaltext mb-4 mr-32 italic">
-        {data.summary}
-      </p>
     </li>
   </div>
 );
 
-Podcast.propTypes = {
+NewsArticle.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string,
     link: PropTypes.string,
-    host: PropTypes.string,
+    magazine: PropTypes.string,
     date: PropTypes.string,
-    summary: PropTypes.string,
   }).isRequired,
 };
 
-// Podcasts (collection of podcasts) component
-const Podcasts = ({ data }) => (
+// News (collection of news articles) component
+const News = ({ data }) => (
   <div className="relative pt-20 rounded-[14px] shadow-md text-white">
     <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
       <h1 className="_h1">
-        PODCASTS
+        NEWS MENTIONS
       </h1>
     </div>
-    <ol className="ml-32">
+    <ol className="ml-32 mb-32">
       {data.map((degree) => (
-        <Podcast data={degree} key={degree.title} />
+        <NewsArticle data={degree} key={degree.title} />
       ))}
     </ol>
   </div>
 );
 
-Podcasts.propTypes = {
+News.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       link: PropTypes.string,
-      host: PropTypes.string,
+      magazine: PropTypes.string,
       date: PropTypes.string,
-      summary: PropTypes.string,
     }),
   ),
 };
 
-Podcasts.defaultProps = {
+News.defaultProps = {
   data: [],
 };
 
-export default Podcasts;
+export default News;

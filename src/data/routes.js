@@ -62,6 +62,20 @@ const routes = [
   {
     label: 'Media',
     path: '/media',
+    submenu: [
+      {
+        label: 'Videos',
+        path: 'videos',
+      },
+      {
+        label: 'Podcasts',
+        path: 'podcasts',
+      },
+      {
+        label: 'News',
+        path: 'news',
+      },
+    ],
   },
   {
     label: 'Contacts',
