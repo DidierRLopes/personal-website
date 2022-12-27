@@ -4,7 +4,7 @@ import ChevronDownIcon from '../../assets/ChevronDownIcon';
 
 // Single blogpost component
 const SingleBlog = ({ data }) => (
-  <div className="justify-center mb-16 mt-16">
+  <div className="justify-center mb-4 mt-16">
     <div className="w-32 mx-auto">
       <div className="flex justify-center items-center rounded-xl mb-2 mr-2 px-2.5 py-0.5 text-black bg-blue-200">
         {data.pubDate.split(' ')[0]}
@@ -27,8 +27,7 @@ const SingleBlog = ({ data }) => (
       <img
         src={`${data.thumbnail}`}
         alt={data.title}
-        width="800px"
-        className="border-2 border-blue-200 rounded-xl"
+        className="border-2 border-blue-200 rounded-xl h-[300px]"
       />
     </div>
   </div>
@@ -89,11 +88,13 @@ const Blog = ({ mediumProfile }) => {
             </a>
           </div>
         </div>
-        {
-          blogposts.status === 'ok' && blogposts.items.map((post) => (
-            <SingleBlog data={post} key={post.title} />
-          ))
-        }
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.96),1fr))] p-8 gap-8 ml-16 mr-16">
+          {
+            blogposts.status === 'ok' && blogposts.items.map((post) => (
+              <SingleBlog data={post} key={post.title} />
+            ))
+          }
+        </div>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const data = [
   {
     title: 'Personal Website',
     link: 'https://github.com/DidierRLopes/personal-website',
-    image: '/images/projects/openbb.png',
+    image: '/images/projects/personal_website.png',
     desc: 'This very same personal website.',
     language: 'JavaScript',
   },

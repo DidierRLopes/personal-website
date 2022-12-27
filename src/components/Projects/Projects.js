@@ -22,8 +22,7 @@ const SingleProject = ({ data }) => (
       <img
         src={`${process.env.PUBLIC_URL}${data.image}`}
         alt={data.title}
-        width="800px"
-        className="border-2 border-blue-200 rounded-xl"
+        className="border-2 border-blue-200 rounded-xl h-[300px]"
       />
     </div>
   </div>
@@ -44,13 +43,21 @@ const Projects = ({ data }) => (
   <div>
     <div className="relative pt-20 rounded-[14px] shadow-md text-white">
       <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
-        <h1 className="_h1">
+        <h1 className="_h1 !mb-2">
           PERSONAL PROJECTS
         </h1>
+        <div className="_subtitle text-lg">
+          <span>
+            I know that OpenBB Terminal is no longer a personal project,
+            but am too proud of it :)
+          </span>
+        </div>
       </div>
-      {data.map((project) => (
-        <SingleProject data={project} key={project.title} />
-      ))}
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.96),1fr))] p-8 gap-8 ml-16 mr-16">
+        {data.map((project) => (
+          <SingleProject data={project} key={project.title} />
+        ))}
+      </div>
     </div>
   </div>
 );
