@@ -7,6 +7,13 @@ const data = [
     language: 'Python',
   },
   {
+    title: 'Personal Website',
+    link: 'https://github.com/DidierRLopes/personal-website',
+    image: '/images/projects/openbb.png',
+    desc: 'This very same personal website.',
+    language: 'JavaScript',
+  },
+  {
     title: 'Meme Filter',
     link: 'https://github.com/DidierRLopes/meme-filter',
     image: '/images/projects/memes_filter.png',
