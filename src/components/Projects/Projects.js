@@ -49,7 +49,7 @@ const Projects = ({ data }) => (
         <div className="_subtitle text-lg">
           <span>
             I know that OpenBB Terminal is no longer a personal project,
-            but am too proud of it :)
+            but am too proud of it to not include it here. :)
           </span>
         </div>
       </div>

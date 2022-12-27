@@ -90,8 +90,8 @@ const Blog = ({ mediumProfile }) => {
         </div>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.96),1fr))] p-8 gap-8 ml-16 mr-16">
           {
-            blogposts.status === 'ok' && blogposts.items.map((post) => (
-              <SingleBlog data={post} key={post.title} />
+            blogposts.status === 'ok' && blogposts.items.map((blog) => (
+              <SingleBlog data={blog} key={blog.title} />
             ))
           }
         </div>

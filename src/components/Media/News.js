@@ -47,8 +47,8 @@ const News = ({ data }) => (
       </h1>
     </div>
     <ol className="ml-32 mb-32">
-      {data.map((degree) => (
-        <NewsArticle data={degree} key={degree.title} />
+      {data.map((news) => (
+        <NewsArticle data={news} key={news.title} />
       ))}
     </ol>
   </div>
