@@ -14,6 +14,13 @@ const videos = [
     time: '56 minutes',
   },
   {
+    title: 'How to grow your open-source community from scratch',
+    embed: 'https://www.youtube.com/embed/kgA3uv5h9Fk',
+    description: 'Learn how to grow your open-source community from scratch. This presentation was done during the Web Summit 2022.',
+    date: '2022-11-09',
+    time: '3 minutes',
+  },
+  {
     title: 'OpenBB: Save HTML reports + Autocomplete + Set default data source',
     embed: 'https://www.youtube.com/embed/qBFjteG_kOY',
     description: 'This video just aims to demonstrate a couple of features that I worked on in 1 week, namely: Allowing users to edit automated reports and be able to save the changes, powerful autocomplete; and allow to see what data sources are behind a command and to select default one',
