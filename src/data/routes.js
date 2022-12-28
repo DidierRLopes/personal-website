@@ -87,10 +87,6 @@ const routes = [
       },
     ],
   },
-  {
-    label: 'Contacts',
-    path: '/contacts',
-  },
 ];
 
 export default routes;
