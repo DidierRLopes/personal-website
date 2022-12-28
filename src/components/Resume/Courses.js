@@ -17,7 +17,7 @@ const Course = ({ data }) => (
         <BookIcon />
       </a>
       <strong>{data.title}</strong>
-      <span className="_subtitle">{data.university}</span>
+      <span className="_subtitle">{data.issuer}</span>
       <span className="_subtitle">{data.date}</span>
     </div>
   </div>
@@ -28,7 +28,7 @@ Course.propTypes = {
     link: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    university: PropTypes.string.isRequired,
+    issuer: PropTypes.string.isRequired,
   }).isRequired,
 };
 
@@ -58,7 +58,7 @@ Courses.propTypes = {
       title: PropTypes.string,
       date: PropTypes.string,
       link: PropTypes.string,
-      university: PropTypes.string,
+      issuer: PropTypes.string,
     }),
   ),
 };
