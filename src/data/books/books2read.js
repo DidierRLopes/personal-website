@@ -109,6 +109,11 @@ const books2read = [
     author: 'Morgan Housel',
     image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
   },
+  {
+    title: "What Got You Here Won't Get You There: How successful people become even more successful",
+    author: 'Marshall Goldsmith',
+    image: 'https://m.media-amazon.com/images/I/8149MPAvefL.jpg',
+  },
 ];
 
 export default books2read;
