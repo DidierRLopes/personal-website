@@ -24,19 +24,19 @@ SingleBlog.propTypes = {
   }).isRequired,
 };
 
-// Collection of blogposts component
-const Recommendation = ({ data }) => (
+// Collection of favourite blogposts component
+const Favourites = ({ data }) => (
   <div>
     <div
       className="relative pt-20 rounded-[14px] shadow-md text-white mb-16"
     >
       <div className="mx-auto mt-16 flex max-w-[880px] flex-col px-3 text-center md:mt-16">
         <h1 className="_h1 !mb-2">
-          RECOMMENDATIONS
+          Favourites
         </h1>
         <div className="_subtitle text-lg">
           <span>
-            Favourite go-to blog pages
+            Go-to blog pages. Let me know if there&apos;s any you would add here.
           </span>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Recommendation = ({ data }) => (
   </div>
 );
 
-Recommendation.propTypes = {
+Favourites.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       author: PropTypes.string.isRequired,
@@ -60,8 +60,8 @@ Recommendation.propTypes = {
   ),
 };
 
-Recommendation.defaultProps = {
+Favourites.defaultProps = {
   data: [],
 };
 
-export default Recommendation;
+export default Favourites;

@@ -1,4 +1,4 @@
-const recommendation = [
+const favourites = [
   {
     author: 'Paul Graham',
     link: 'http://www.paulgraham.com/articles.html',
@@ -17,4 +17,4 @@ const recommendation = [
   },
 ];
 
-export default recommendation;
+export default favourites;

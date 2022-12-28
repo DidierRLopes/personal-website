@@ -60,8 +60,8 @@ const routes = [
         path: 'blog',
       },
       {
-        label: 'My recommendations',
-        path: 'recommendation',
+        label: 'Favourites',
+        path: 'favourites',
       },
     ],
   },

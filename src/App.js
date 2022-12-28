@@ -15,30 +15,6 @@ const Blog = lazy(() => import('./pages/Blog'));
 const Books = lazy(() => import('./pages/Books'));
 const Media = lazy(() => import('./pages/Media'));
 
-// Every route - we lazy load so that each page can be chunked
-// NOTE that some of these chunks are very small. We should optimize
-// which pages are lazy loaded in the future.
-/*
-const Index = lazy(() => import('./pages/Index'));
-const Resume = lazy(() => import('./pages/Resume'));
-const NotFound = lazy(() => import('./pages/NotFound'));
-const Stats = lazy(() => import('./pages/Stats'));
-
-const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
-    <Suspense fallback={<Main />}>
-      <Switch>
-        <Route exact path="/" component={Index} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/books" component={Books} />
-        <Route path="/stats" component={Stats} />
-        <Route component={NotFound} status={404} />
-      </Switch>
-    </Suspense>
-  </BrowserRouter>
-  );
-*/
-
 const App = () => (
   <div>
     <Header />
