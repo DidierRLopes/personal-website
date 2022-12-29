@@ -21,6 +21,7 @@ Run using: `npm start`
 * [ ] Add analytics to track website visits
 * [ ] Utilize typescript instead of javascript
 * [ ] On OpenBB Progress add latest blogposts from OpenBB by scraping OpenBB blogpost RSS feed
+* [ ] GitHub action to deploy website on didierlopes.com directly
 
 ## Acknowledgments
 
