@@ -1,11 +1,28 @@
 # Personal Website
 
-The basis of this website was taken from [mldangelo.com](https://mldangelo.com). Michael D'Angelo has open source his personal website which you can fork from [here](https://github.com/mldangelo/personal-site) - I have started a new repo since I intend to diverge quite a bit from the original.
-
-Thanks [Jose Donato](https://github.com/jose-donato) for helping me with everything I know about web development.
+This is my own personal website, that I am currently using to learn React.js + Tailwind CSS.
 
 Run using: `npm start`
 
-WORK IN PROGRESS
+## Roadmap
 
-Changing SCSS to Tailwind CSS
+* [ ] Improve dates formatting
+* [ ] Add footer with tabs and also social media links
+* [ ] Add didierlopes.com/links page
+* [ ] Update navbar and others for Radix UI components
+* [ ] Create more components to avoid code repetition
+* [ ] Clean global.css file from what isn't being used
+* [ ] Ensure support mobile for most common devices
+* [ ] Solve routing when opening a page that is not the homepage
+* [ ] Added an integrated PDF reader option for reading an article directly on the browser or even download
+* [ ] Add github contribution graph
+* [ ] Add link to books in Amazon
+* [ ] Add tags to books, and allow to filter for topics
+* [ ] Add analytics to track website visits
+* [ ] Utilize typescript instead of javascript
+* [ ] On OpenBB Progress add latest blogposts from OpenBB by scraping OpenBB blogpost RSS feed
+* [ ] GitHub action to deploy website on didierlopes.com directly
+
+## Acknowledgments
+
+Thanks [Jose Donato](https://github.com/jose-donato) for always having time to answer web dev silly questions.
