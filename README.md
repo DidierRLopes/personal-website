@@ -15,6 +15,7 @@ Run using: `npm start`
 * [ ] Ensure support mobile for most common devices
 * [ ] Solve routing when opening a page that is not the homepage
 * [ ] Added an integrated PDF reader option for reading an article directly on the browser or even download
+* [ ] Add github contribution graph
 * [ ] Add link to books in Amazon
 * [ ] Add tags to books, and allow to filter for topics
 * [ ] Add analytics to track website visits
