@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Analytics from '../components/Template/Analytics';
-import Navigation from '../components/Template/Navigation';
+import Navigation from '../components/Navbar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Main = (props) => (
