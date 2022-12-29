@@ -5,11 +5,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/71PVpxYp08L.jpg',
   },
   {
-    title: 'Who: The A Method for Hiring',
-    author: 'Geoff Smart',
-    image: 'https://m.media-amazon.com/images/I/81CHGn0otuL.jpg',
-  },
-  {
     title: 'Never Split the Difference: Negotiating as if Your Life Depended on It',
     author: 'Chris Voss',
     image: 'https://m.media-amazon.com/images/I/71b+W6NDruS.jpg',

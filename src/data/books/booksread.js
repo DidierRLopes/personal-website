@@ -94,6 +94,11 @@ const booksread = [
     author: 'Matt Mochary',
     image: 'https://m.media-amazon.com/images/P/B07ZLGQZYC.01._SCLZZZZZZZ_SX500_.jpg',
   },
+  {
+    title: 'Who: The A Method for Hiring',
+    author: 'Geoff Smart',
+    image: 'https://m.media-amazon.com/images/I/81CHGn0otuL.jpg',
+  },
 ];
 
 export default booksread;
