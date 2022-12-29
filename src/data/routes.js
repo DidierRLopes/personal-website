@@ -4,6 +4,14 @@ const routes = [
     path: '/',
   },
   {
+    label: 'Projects',
+    path: '/projects',
+  },
+  {
+    label: 'Books',
+    path: '/books',
+  },
+  {
     label: 'Resume',
     path: '/resume',
     submenu: [
@@ -26,32 +34,6 @@ const routes = [
     ],
   },
   {
-    label: 'Stats',
-    path: '/stats',
-    submenu: [
-      {
-        label: 'Personal Stats',
-        path: 'personal-stats',
-      },
-      {
-        label: 'Open Source Stats',
-        path: 'open-source-stats',
-      },
-      {
-        label: 'OpenBB Progress',
-        path: 'openbb-progress',
-      },
-      {
-        label: 'My Travels',
-        path: 'my-travels',
-      },
-    ],
-  },
-  {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
     label: 'Blog',
     path: '/blog',
     submenu: [
@@ -64,10 +46,6 @@ const routes = [
         path: 'favourites',
       },
     ],
-  },
-  {
-    label: 'Books',
-    path: '/books',
   },
   {
     label: 'Media',

@@ -9,7 +9,6 @@ const { PUBLIC_URL } = process.env;
 const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Stats = lazy(() => import('./pages/Stats'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Blog = lazy(() => import('./pages/Blog'));
 const Books = lazy(() => import('./pages/Books'));
@@ -24,7 +23,6 @@ const App = () => (
           <Switch>
             <Route exact path="/" component={Index} />
             <Route path="/resume" component={Resume} />
-            <Route path="/stats" component={Stats} />
             <Route path="/projects" component={Projects} />
             <Route path="/blog" component={Blog} />
             <Route path="/books" component={Books} />
