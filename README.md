@@ -1,11 +1,13 @@
 # Personal Website
 
-The basis of this website was taken from [mldangelo.com](https://mldangelo.com). Michael D'Angelo has open source his personal website which you can fork from [here](https://github.com/mldangelo/personal-site) - I have started a new repo since I intend to diverge quite a bit from the original.
-
-Thanks [Jose Donato](https://github.com/jose-donato) for helping me with everything I know about web development.
+This is my own personal website, that I am currently using to learn React.js + Tailwind CSS.
 
 Run using: `npm start`
 
-WORK IN PROGRESS
+# Roadmap
 
-Changing SCSS to Tailwind CSS
+* [ ] test
+
+# Acknowledgments
+
+Thanks [Jose Donato](https://github.com/jose-donato) for helping me with everything I know about web development.
