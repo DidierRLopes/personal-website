@@ -39,7 +39,7 @@ const MenuItems = ({ items }) => {
         </div>
       ) : (
         <div className="__navbar relative">
-          <a href={items.path}>{items.label}</a>
+          <a href={`/personal-website${items.path}`}>{items.label}</a>
         </div>
       )}
     </li>

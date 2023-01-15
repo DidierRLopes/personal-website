@@ -4,7 +4,7 @@ import './global.css'; // All of our styles
 
 import Header from './components/Header';
 
-// const { PUBLIC_URL } = process.env;
+const { PUBLIC_URL } = process.env;
 
 const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
@@ -16,7 +16,7 @@ const Media = lazy(() => import('./pages/Media'));
 
 const App = () => (
   <div>
-    <BrowserRouter basename="/project-website">
+    <BrowserRouter basename={PUBLIC_URL}>
       <Header />
       <Suspense fallback={<Header />}>
         <Switch>

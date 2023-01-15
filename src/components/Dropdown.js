@@ -22,7 +22,7 @@ const Dropdown = ({
           className="__navbar block pl-3 pr-4"
         >
           <a
-            href={`/${label}#${submenu.path}`}
+            href={`/personal-website/${label}#${submenu.path}`}
             className={clsx('flex items-center font-semibold p-2 rounded-sm', { 'border-t-2 border-blue-700': index !== 0 })}
             onClick={toggle}
           >
