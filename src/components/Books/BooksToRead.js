@@ -19,13 +19,9 @@ const BooksToRead = ({ data }) => {
             BOOKS TO READ
           </h1>
           <div className="_subtitle mb-16">
-            <span>Currently reading{' '}</span>
-            <span className="text-white">
-              {data[0].title.includes(':') ? data[0].title.split(':')[0] : data[0].title}
-            </span>
-            <span>{' '}by{' '}</span>
-            <span className="text-white">
-              {data[0].author}
+            <span>
+              If there is a particular book that you think I should read,
+              feel free to recommend it
             </span>
           </div>
         </div>

@@ -1,10 +1,5 @@
 const books2read = [
   {
-    title: 'Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies',
-    author: 'Reid Hoffman',
-    image: 'https://m.media-amazon.com/images/I/71PVpxYp08L.jpg',
-  },
-  {
     title: 'Never Split the Difference: Negotiating as if Your Life Depended on It',
     author: 'Chris Voss',
     image: 'https://m.media-amazon.com/images/I/71b+W6NDruS.jpg',
@@ -38,11 +33,6 @@ const books2read = [
     title: 'Getting Things Done: The Art of Stress-Free Productivity',
     author: 'David Allen',
     image: 'https://m.media-amazon.com/images/I/51KNBNziJXL.jpg',
-  },
-  {
-    title: 'Disciplined Entrepreneurship: 24 Steps to a Successful Startup',
-    author: 'Bill Aulet',
-    image: 'https://m.media-amazon.com/images/I/41jCiw96BJL.jpg',
   },
   {
     title: 'Story: Substance, Structure, Style, and the Principles of Screenwriting',
@@ -108,6 +98,31 @@ const books2read = [
     title: "What Got You Here Won't Get You There: How successful people become even more successful",
     author: 'Marshall Goldsmith',
     image: 'https://m.media-amazon.com/images/I/8149MPAvefL.jpg',
+  },
+  {
+    title: 'The Hero with a Thousand Faces',
+    author: 'Joseph Campbell',
+    image: 'https://m.media-amazon.com/images/I/51VeJN9ikML.jpg',
+  },
+  {
+    title: 'The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company',
+    author: 'Robert Iger',
+    image: 'https://m.media-amazon.com/images/I/915oFtkji9L.jpg',
+  },
+  {
+    title: 'Predictably Irrational, Revised and Expanded Edition: The Hidden Forces That Shape Our Decisions',
+    author: 'Dr. Dan Ariely',
+    image: 'https://m.media-amazon.com/images/I/61v5CqYL2WL.jpg',
+  },
+  {
+    title: 'Blue Ocean Strategy, Expanded Edition: How to Create Uncontested Market Space and Make the Competition Irrelevant',
+    author: 'W. Chan Kim, Renée Mauborgne',
+    image: 'https://m.media-amazon.com/images/I/813Pyktx7UL.jpg',
+  },
+  {
+    title: 'Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customer',
+    author: 'Geoffrey A. Moore',
+    image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
   },
 ];
 

@@ -14,7 +14,7 @@
     "build": "rimraf ./build && react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "lint": "eslint $(git ls-files '*.js')",
     "test": "react-scripts test --watchAll=false --passWithNoTests",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"

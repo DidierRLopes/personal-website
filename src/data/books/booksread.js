@@ -99,6 +99,21 @@ const booksread = [
     author: 'Geoff Smart',
     image: 'https://m.media-amazon.com/images/I/81CHGn0otuL.jpg',
   },
+  {
+    title: 'The Lean Startup: The Million Copy Bestseller Driving Entrepreneurs to Success',
+    author: 'Eric Ries',
+    image: 'https://m.media-amazon.com/images/P/B005PR422K.01._SCLZZZZZZZ_SX500_.jpg',
+  },
+  {
+    title: 'Disciplined Entrepreneurship: 24 Steps to a Successful Startup',
+    author: 'Bill Aulet',
+    image: 'https://m.media-amazon.com/images/I/41jCiw96BJL.jpg',
+  },
+  {
+    title: 'Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies',
+    author: 'Reid Hoffman',
+    image: 'https://m.media-amazon.com/images/I/71PVpxYp08L.jpg',
+  },
 ];
 
 export default booksread;
