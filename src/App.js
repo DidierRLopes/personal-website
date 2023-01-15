@@ -4,7 +4,7 @@ import './global.css'; // All of our styles
 
 import Header from './components/Header';
 
-const { PUBLIC_URL } = process.env;
+// const { PUBLIC_URL } = process.env;
 
 const Index = lazy(() => import('./pages/Index'));
 const Resume = lazy(() => import('./pages/Resume'));
@@ -16,22 +16,20 @@ const Media = lazy(() => import('./pages/Media'));
 
 const App = () => (
   <div>
-    <Header />
-    <div className="relative">
-      <BrowserRouter basename={PUBLIC_URL}>
-        <Suspense fallback={<Header />}>
-          <Switch>
-            <Route path="/" component={Index} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/books" component={Books} />
-            <Route path="/media" component={Media} />
-            <Route component={NotFound} status={404} />
-          </Switch>
-        </Suspense>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter basename="/project-website">
+      <Header />
+      <Suspense fallback={<Header />}>
+        <Switch>
+          <Route exact path="/" component={Index} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/books" component={Books} />
+          <Route path="/media" component={Media} />
+          <Route component={NotFound} status={404} />
+        </Switch>
+      </Suspense>
+    </BrowserRouter>
   </div>
 );
 
