@@ -5,11 +5,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/71b+W6NDruS.jpg',
   },
   {
-    title: 'The 15 Commitments of Conscious Leadership: A New Paradigm for Sustainable Success',
-    author: 'Jim Dethmer',
-    image: 'https://m.media-amazon.com/images/I/51P4fhyMkiL.jpg',
-  },
-  {
     title: 'Actionable Gamification: Beyond Points, Badges and Leaderboards',
     author: 'Yu-Kai Chou',
     image: 'https://m.media-amazon.com/images/I/61EyclvK8GL.jpg',
@@ -28,11 +23,6 @@ const books2read = [
     title: 'No Rules Rules: Netflix and the Culture of Reinvention',
     author: 'Reed Hastings, Erin Meyer',
     image: 'https://m.media-amazon.com/images/I/71KCwxodiJL.jpg',
-  },
-  {
-    title: 'Getting Things Done: The Art of Stress-Free Productivity',
-    author: 'David Allen',
-    image: 'https://m.media-amazon.com/images/I/51KNBNziJXL.jpg',
   },
   {
     title: 'Story: Substance, Structure, Style, and the Principles of Screenwriting',
@@ -65,11 +55,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/71cv-b7-DzL.jpg',
   },
   {
-    title: 'The Design of Everyday Things',
-    author: 'Donald Norman',
-    image: 'https://m.media-amazon.com/images/I/51-yJS95QML.jpg',
-  },
-  {
     title: 'The Power Presenter: Technique, Style, and Strategy from Americas Top Speaking Coach',
     author: 'Jerry Weissman',
     image: 'https://m.media-amazon.com/images/I/514ck6YIOqL.jpg',
@@ -95,11 +80,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
   },
   {
-    title: "What Got You Here Won't Get You There: How successful people become even more successful",
-    author: 'Marshall Goldsmith',
-    image: 'https://m.media-amazon.com/images/I/8149MPAvefL.jpg',
-  },
-  {
     title: 'The Hero with a Thousand Faces',
     author: 'Joseph Campbell',
     image: 'https://m.media-amazon.com/images/I/51VeJN9ikML.jpg',
@@ -123,6 +103,36 @@ const books2read = [
     title: 'Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customer',
     author: 'Geoffrey A. Moore',
     image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
+  },
+  {
+    title: 'Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days',
+    author: 'Jake Knapp, John Zeratsky, Braden Kowitz, Dan Bittner',
+    image: 'https://m.media-amazon.com/images/I/71Z1HWsH4fL.jpg',
+  },
+  {
+    title: 'User Story Mapping: Discover the Whole Story, Build the Right Product',
+    author: 'Jeff Patton (Author)',
+    image: 'https://m.media-amazon.com/images/I/51xjwiaguCL.jpg',
+  },
+  {
+    title: 'The Mom Test: How to Talk to Customers & Learn If Your Business Is a Good Idea When Everyone Is Lying to You',
+    author: 'Rob Fitzpatrick',
+    image: 'https://m.media-amazon.com/images/I/61ixLoT4lyL.jpg',
+  },
+  {
+    title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness',
+    author: 'Morgan Housel',
+    image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
+  },
+  {
+    title: "Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger",
+    author: 'Peter D. Kaufman',
+    image: 'https://m.media-amazon.com/images/I/81bvEcXd0yL.jpg',
+  },
+  {
+    title: 'The Voltage Effect: How to Make Good Ideas Great and Great Ideas Scale',
+    author: 'John A List',
+    image: 'https://m.media-amazon.com/images/I/710utAgINML.jpg',
   },
 ];
 

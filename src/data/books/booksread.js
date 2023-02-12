@@ -20,6 +20,26 @@ const booksread = [
     image: 'https://m.media-amazon.com/images/I/41YNH+7IyiL.jpg',
   },
   {
+    title: 'Getting Things Done: The Art of Stress-Free Productivity',
+    author: 'David Allen',
+    image: 'https://m.media-amazon.com/images/I/51KNBNziJXL.jpg',
+  },
+  {
+    title: 'The Design of Everyday Things',
+    author: 'Donald Norman',
+    image: 'https://m.media-amazon.com/images/I/51-yJS95QML.jpg',
+  },
+  {
+    title: "What Got You Here Won't Get You There: How successful people become even more successful",
+    author: 'Marshall Goldsmith',
+    image: 'https://m.media-amazon.com/images/I/8149MPAvefL.jpg',
+  },
+  {
+    title: 'The 15 Commitments of Conscious Leadership: A New Paradigm for Sustainable Success',
+    author: 'Jim Dethmer',
+    image: 'https://m.media-amazon.com/images/I/51P4fhyMkiL.jpg',
+  },
+  {
     title: 'A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing',
     author: 'Burton G. Malkiel',
     image: 'https://m.media-amazon.com/images/I/51r8SHx7vSL.jpg',
