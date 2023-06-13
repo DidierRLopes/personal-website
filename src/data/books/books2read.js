@@ -1,10 +1,5 @@
 const books2read = [
   {
-    title: 'Never Split the Difference: Negotiating as if Your Life Depended on It',
-    author: 'Chris Voss',
-    image: 'https://m.media-amazon.com/images/I/71b+W6NDruS.jpg',
-  },
-  {
     title: 'Actionable Gamification: Beyond Points, Badges and Leaderboards',
     author: 'Yu-Kai Chou',
     image: 'https://m.media-amazon.com/images/I/61EyclvK8GL.jpg',
@@ -50,11 +45,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/810u9MkT3SL.jpg',
   },
   {
-    title: 'Inspired: How to Create Tech Products Customers Love',
-    author: 'Marty Cagan',
-    image: 'https://m.media-amazon.com/images/I/71cv-b7-DzL.jpg',
-  },
-  {
     title: 'The Power Presenter: Technique, Style, and Strategy from Americas Top Speaking Coach',
     author: 'Jerry Weissman',
     image: 'https://m.media-amazon.com/images/I/514ck6YIOqL.jpg',
@@ -73,11 +63,6 @@ const books2read = [
     title: "Don't Make Me Think: A Common Sense Approach to Web Usability",
     author: 'Steve Krug',
     image: 'https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51WS36aA2BL.jpg',
-  },
-  {
-    title: 'The Psychology of Money: Timeless lessons on wealth, greed, and happiness',
-    author: 'Morgan Housel',
-    image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
   },
   {
     title: 'The Hero with a Thousand Faces',
@@ -115,16 +100,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/51xjwiaguCL.jpg',
   },
   {
-    title: 'The Mom Test: How to Talk to Customers & Learn If Your Business Is a Good Idea When Everyone Is Lying to You',
-    author: 'Rob Fitzpatrick',
-    image: 'https://m.media-amazon.com/images/I/61ixLoT4lyL.jpg',
-  },
-  {
-    title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness',
-    author: 'Morgan Housel',
-    image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
-  },
-  {
     title: "Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger",
     author: 'Peter D. Kaufman',
     image: 'https://m.media-amazon.com/images/I/81bvEcXd0yL.jpg',
@@ -133,6 +108,151 @@ const books2read = [
     title: 'The Voltage Effect: How to Make Good Ideas Great and Great Ideas Scale',
     author: 'John A List',
     image: 'https://m.media-amazon.com/images/I/710utAgINML.jpg',
+  },
+  {
+    title: 'A Guide to the Good Life: The Ancient Art of Stoic Joy',
+    author: 'William B. Irvine',
+    image: 'https://m.media-amazon.com/images/I/31xoxmaxHJL.jpg',
+  },
+  {
+    title: 'Change: How to Make Big Things Happen',
+    author: 'Damon Centola',
+    image: 'https://m.media-amazon.com/images/I/81jw5k939bL.jpg',
+  },
+  {
+    title: 'The Beginning of Infinity: Explanations That Transform the World',
+    author: 'David Deutsch',
+    image: 'https://m.media-amazon.com/images/I/81kgWVO7VkL.jpg',
+  },
+  {
+    title: 'Influence: The Psychology of Persuasion',
+    author: 'Robert B. Cialdini',
+    image: 'https://m.media-amazon.com/images/I/71JbZ0V06zL.jpg',
+  },
+  {
+    title: 'Predictable Revenue: Turn Your Business Into a Sales Machine with the $100 Million Best Practices of Salesforce.com',
+    author: 'Aaron Ross, Marylou Tyler',
+    image: 'https://m.media-amazon.com/images/I/61yAYYNvIVL.jpg',
+  },
+  {
+    title: 'The Challenger Sale: Taking Control of the Customer Conversation',
+    author: 'Matthew Dixon, Brent Adamson',
+    image: 'https://m.media-amazon.com/images/I/81uVH3YVlgL.jpg',
+  },
+  {
+    title: 'Sell the Way You Buy: A Modern Approach To Sales That Actually Works (Even On You!)',
+    author: 'David Priemer',
+    image: 'https://m.media-amazon.com/images/I/711Q5WTMTJL.jpg',
+  },
+  {
+    title: "The Amazon Way: Amazon's 14 Leadership Principles",
+    author: 'John Rossman',
+    image: 'https://m.media-amazon.com/images/I/61dx0hEkWnS.jpg',
+  },
+  {
+    title: 'No Red Lights: Reflections on Life, 50 Years in Venture Capital, and Never Driving Alone',
+    author: 'Alan J. Patricof',
+    image: 'https://m.media-amazon.com/images/I/71rWw43H1rL.jpg',
+  },
+  {
+    title: "The Innovator's Dilemma: The Revolutionary Book That Will Change the Way You Do Business",
+    author: 'Clayton M. Christensen',
+    image: 'https://m.media-amazon.com/images/I/618BdBwK5ML.jpg',
+  },
+  {
+    title: 'Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value',
+    author: 'Teresa Torres',
+    image: 'https://m.media-amazon.com/images/I/611QkQ+CXES.jpg',
+  },
+  {
+    title: 'Empowered: Ordinary People, Extraordinary Products (Silicon Valley Product Group)',
+    author: 'Marty Cagan',
+    image: 'https://m.media-amazon.com/images/I/71O0cfXUnLL.jpg',
+  },
+  {
+    title: 'Strong Product People: A Complete Guide to Developing Great Product Managers',
+    author: 'Petra Wille',
+    image: 'https://m.media-amazon.com/images/I/618ws4ppSBL.jpg',
+  },
+  {
+    title: 'Escaping the Build Trap: How Effective Product Management Creates Real Value',
+    author: 'Melissa Perri',
+    image: 'https://m.media-amazon.com/images/I/81rhQF3g4-L.jpg',
+  },
+  {
+    title: 'Product Leadership: How Top Product Managers Launch Awesome Products and Build Successful Teams',
+    author: 'Richard Banfield, Martin Eriksson, Nate Walkingshaw',
+    image: 'https://m.media-amazon.com/images/I/61Q47F8k3bL.jpg',
+  },
+  {
+    title: 'The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity',
+    author: 'Alan Cooper',
+    image: 'https://m.media-amazon.com/images/I/41+Ev14Di4L.jpg',
+  },
+  {
+    title: 'Loved: How to Rethink Marketing for Tech Products (Silicon Valley Product Group)',
+    author: 'Martina Lauchengco, Todd Wilms, Chris Jones',
+    image: 'https://m.media-amazon.com/images/I/71JGnUdqC5L.jpg',
+  },
+  {
+    title: 'Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days',
+    author: 'Jake Knapp, John Zeratsky, Braden Kowitz, Dan Bittner',
+    image: 'https://m.media-amazon.com/images/I/71Z1HWsH4fL.jpg',
+  },
+  {
+    title: 'Cracking the PM Interview: How to Land a Product Manager Job in Technology',
+    author: 'Gayle Laakmann McDowell, Jackie Bavaro',
+    image: 'https://m.media-amazon.com/images/I/61lpVd2HzXL.jpg',
+  },
+  {
+    title: 'When Coffee and Kale Compete: Become great at making products people will buy',
+    author: 'Alan Klement',
+    image: 'https://m.media-amazon.com/images/I/61OI41CD53L.jpg',
+  },
+  {
+    title: 'Cracking the PM Career: The Skills, Frameworks, and Practices To Become a Great Product Manager',
+    author: 'Jackie Bavaro, Gayle McDowell',
+    image: 'https://m.media-amazon.com/images/I/61ytrkspHnL.jpg',
+  },
+  {
+    title: "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+    author: 'Annie Duke',
+    image: 'https://m.media-amazon.com/images/I/81RraEAq2NL.jpg',
+  },
+  {
+    title: "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+    author: 'Steve Krug',
+    image: 'https://m.media-amazon.com/images/I/51WS36aA2BL.jpg',
+  },
+  {
+    title: 'Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It',
+    author: 'April Dunford, Geoffrey Moore',
+    image: 'https://m.media-amazon.com/images/I/61ncg5hBY6L.jpg',
+  },
+  {
+    title: 'Indistractable: How to Control Your Attention and Choose Your Life',
+    author: 'Nir Eyal',
+    image: 'https://m.media-amazon.com/images/I/71yV71FUIAS.jpg',
+  },
+  {
+    title: 'Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.',
+    author: 'Brene Brown',
+    image: 'https://m.media-amazon.com/images/I/71Yz0igLjoL.jpg',
+  },
+  {
+    title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action',
+    author: 'Simon Sinek',
+    image: 'https://m.media-amazon.com/images/I/7153xiXZMoL.jpg',
+  },
+  {
+    title: 'Competing Against Luck: The Story of Innovation and Customer Choice',
+    author: 'Clayton M. Christensen, Karen Dillon, Taddy Hall, David S. Duncan',
+    image: 'https://m.media-amazon.com/images/I/81jN2hzQg9L.jpg',
+  },
+  {
+    title: 'Nudge: The Final Edition: Improving Decisions About Money, Health, and the Environment',
+    author: 'Richard H. Thaler, Cass R. Sunstein',
+    image: 'https://m.media-amazon.com/images/I/413vkHc-U1L.jpg',
   },
 ];
 

@@ -134,6 +134,31 @@ const booksread = [
     author: 'Reid Hoffman',
     image: 'https://m.media-amazon.com/images/I/71PVpxYp08L.jpg',
   },
+  {
+    title: 'The Mom Test: How to Talk to Customers & Learn If Your Business Is a Good Idea When Everyone Is Lying to You',
+    author: 'Rob Fitzpatrick',
+    image: 'https://m.media-amazon.com/images/I/61ixLoT4lyL.jpg',
+  },
+  {
+    title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness',
+    author: 'Morgan Housel',
+    image: 'https://m.media-amazon.com/images/I/71J3+5lrCDL.jpg',
+  },
+  {
+    title: 'Never Split the Difference: Negotiating as if Your Life Depended on It',
+    author: 'Chris Voss',
+    image: 'https://m.media-amazon.com/images/I/71b+W6NDruS.jpg',
+  },
+  {
+    title: 'Inspired: How to Create Tech Products Customers Love',
+    author: 'Marty Cagan',
+    image: 'https://m.media-amazon.com/images/I/71cv-b7-DzL.jpg',
+  },
+  {
+    title: 'The Courage to Be Disliked: The Japanese Phenomenon That Shows You How to Change Your Life and Achieve Real Happiness',
+    author: 'Ichiro Kishimi, Fumitake Koga',
+    image: 'https://m.media-amazon.com/images/I/81NPuoFXtjL.jpg',
+  },
 ];
 
 export default booksread;
