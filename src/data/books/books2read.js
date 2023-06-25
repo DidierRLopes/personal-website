@@ -254,6 +254,76 @@ const books2read = [
     author: 'Richard H. Thaler, Cass R. Sunstein',
     image: 'https://m.media-amazon.com/images/I/413vkHc-U1L.jpg',
   },
+  {
+    title: 'The Most Important Thing: Uncommon Sense for The Thoughtful Investor',
+    author: 'Howard Marks',
+    image: 'https://m.media-amazon.com/images/I/61NNr+MqsgL.jpg',
+  },
+  {
+    title: 'Market Wizards: Interviews with Top Traders',
+    author: 'Jack D. Schwager',
+    image: 'https://m.media-amazon.com/images/I/51YCBFM34QL.jpg',
+  },
+  {
+    title: 'The Alchemy of Finance',
+    author: 'George Soros',
+    image: 'https://m.media-amazon.com/images/I/5126Y09VPwL.jpg',
+  },
+  {
+    title: 'More Money Than God: Hedge Funds and the Making of a New Elite',
+    author: 'Sebastian Mallaby',
+    image: 'https://m.media-amazon.com/images/I/61BUXNslV7L.jpg',
+  },
+  {
+    title: "Founders at Work: Stories of Startups' Early Days",
+    author: 'Jessica Livingston',
+    image: 'https://m.media-amazon.com/images/I/61p0C5iQ8vL.jpg',
+  },
+  {
+    title: 'Radical Candor: Fully Revised & Updated Edition: Be a Kick-Ass Boss Without Losing Your Humanity',
+    author: 'Kim Scott',
+    image: 'https://m.media-amazon.com/images/I/81Yd6Q6geBL.jpg',
+  },
+  {
+    title: '$100M Offers: How to Make Offers So Good People Feel Stupid Saying No',
+    author: 'Alex Hormozi',
+    image: 'https://m.media-amazon.com/images/I/618zYUWUKfL.jpg',
+  },
+  {
+    title: 'Traction: Get a Grip on Your Business',
+    author: 'Gino Wickman',
+    image: 'https://m.media-amazon.com/images/I/81d7NYQfKXL.jpg',
+  },
+  {
+    title: 'Shoe Dog: A Memoir by the Creator of Nike',
+    author: 'Phil Knight',
+    image: 'https://m.media-amazon.com/images/I/71U49T+hOTL.jpg',
+  },
+  {
+    title: 'Recruiting',
+    author: 'Ryan Breslow',
+    image: 'https://m.media-amazon.com/images/I/41jojP3003L.jpg',
+  },
+  {
+    title: '',
+    author: '',
+    image: '',
+  },
+  {
+    title: '',
+    author: '',
+    image: '',
+  },
+  {
+    title: '',
+    author: '',
+    image: '',
+  },
+  {
+    title: '',
+    author: '',
+    image: '',
+  },
 ];
 
 export default books2read;
