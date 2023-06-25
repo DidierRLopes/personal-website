@@ -305,24 +305,39 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/41jojP3003L.jpg',
   },
   {
-    title: '',
-    author: '',
-    image: '',
+    title: 'The Messy Middle: Finding Your Way Through the Hardest and Most Crucial Part of Any Bold Venture',
+    author: 'Scott Belsky',
+    image: 'https://m.media-amazon.com/images/I/81heFYwGUeL.jpg',
   },
   {
-    title: '',
-    author: '',
-    image: '',
+    title: 'Principles: Life and Work',
+    author: 'Ray Dalio',
+    image: 'https://m.media-amazon.com/images/I/61aug2ORFVL.jpg',
   },
   {
-    title: '',
-    author: '',
-    image: '',
+    title: "The Innovator's Solution: Creating and Sustaining Successful Growth",
+    author: 'Clayton M. Christensen',
+    image: 'https://m.media-amazon.com/images/I/71PoYga+qwL.jpg',
   },
   {
-    title: '',
-    author: '',
-    image: '',
+    title: 'Built to Sell: Creating a Business That Can Thrive Without You',
+    author: 'John Warrilow',
+    image: 'https://m.media-amazon.com/images/I/51uaWR-TlbL.jpg',
+  },
+  {
+    title: 'Rework',
+    author: 'Jason Fried, David Heinemeier Hansson',
+    image: 'https://m.media-amazon.com/images/I/71SqvmjaM3L.jpg',
+  },
+  {
+    title: 'Resilience: Hard-Won Wisdom for Living a Better Life',
+    author: 'Eric Greitens',
+    image: 'https://m.media-amazon.com/images/I/51sQ7g5XwAL.jpg',
+  },
+  {
+    title: 'Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX',
+    author: 'Eric Berger',
+    image: 'https://m.media-amazon.com/images/I/81jGRuec-wL.jpg',
   },
 ];
 
