@@ -159,6 +159,11 @@ const booksread = [
     author: 'Ichiro Kishimi, Fumitake Koga',
     image: 'https://m.media-amazon.com/images/I/81NPuoFXtjL.jpg',
   },
+  {
+    title: 'To Sell Is Human: The Surprising Truth About Moving Others',
+    author: 'Daniel H. Pink',
+    image: 'https://m.media-amazon.com/images/I/718nhCMkc-L.jpg',
+  },
 ];
 
 export default booksread;
