@@ -6,13 +6,13 @@ import Header from './components/Header';
 
 const { PUBLIC_URL } = process.env;
 
-const Index = lazy(() => import('./pages/Index'));
-const Resume = lazy(() => import('./pages/Resume'));
-const NotFound = lazy(() => import('./pages/NotFound'));
-const Projects = lazy(() => import('./pages/Projects'));
-const Blog = lazy(() => import('./pages/Blog'));
-const Books = lazy(() => import('./pages/Books'));
-const Media = lazy(() => import('./pages/Media'));
+const Index = lazy(() => import('./pages'));
+const Resume = lazy(() => import('./pages/resume'));
+const NotFound = lazy(() => import('./pages/notfound'));
+const Projects = lazy(() => import('./pages/projects'));
+const Blog = lazy(() => import('./pages/blog'));
+const Books = lazy(() => import('./pages/books'));
+const Media = lazy(() => import('./pages/media'));
 
 const App = () => (
   <div>
