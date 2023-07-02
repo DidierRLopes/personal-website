@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import './global.css'; // All of our styles
 
 import Index from './pages/Index';
@@ -16,7 +16,7 @@ const { PUBLIC_URL } = process.env;
 
 const App = () => (
   <div>
-    <BrowserRouter basename={PUBLIC_URL}>
+    <HashRouter basename={PUBLIC_URL}>
       <Header />
       <Suspense fallback={<Header />}>
         <Switch>
@@ -29,7 +29,7 @@ const App = () => (
           <Route component={NotFound} status={404} />
         </Switch>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   </div>
 );
 
