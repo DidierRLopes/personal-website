@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.22a78c8a.css",
-    "main.js": "/static/js/main.7ae7f241.js",
-    "static/js/901.78824f4e.chunk.js": "/static/js/901.78824f4e.chunk.js",
+    "main.js": "/static/js/main.0a6a8ffe.js",
+    "static/js/901.e0bbcde5.chunk.js": "/static/js/901.e0bbcde5.chunk.js",
     "static/js/898.16d83604.chunk.js": "/static/js/898.16d83604.chunk.js",
     "static/js/745.cce7a980.chunk.js": "/static/js/745.cce7a980.chunk.js",
     "static/js/596.6e7e5597.chunk.js": "/static/js/596.6e7e5597.chunk.js",
@@ -13,8 +13,8 @@
     "static/media/FiraCode-Regular.woff2": "/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
     "index.html": "/index.html",
     "main.22a78c8a.css.map": "/static/css/main.22a78c8a.css.map",
-    "main.7ae7f241.js.map": "/static/js/main.7ae7f241.js.map",
-    "901.78824f4e.chunk.js.map": "/static/js/901.78824f4e.chunk.js.map",
+    "main.0a6a8ffe.js.map": "/static/js/main.0a6a8ffe.js.map",
+    "901.e0bbcde5.chunk.js.map": "/static/js/901.e0bbcde5.chunk.js.map",
     "898.16d83604.chunk.js.map": "/static/js/898.16d83604.chunk.js.map",
     "745.cce7a980.chunk.js.map": "/static/js/745.cce7a980.chunk.js.map",
     "596.6e7e5597.chunk.js.map": "/static/js/596.6e7e5597.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.22a78c8a.css",
-    "static/js/main.7ae7f241.js"
+    "static/js/main.0a6a8ffe.js"
   ]
 }
