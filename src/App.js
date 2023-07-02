@@ -7,12 +7,12 @@ import Header from './components/Header';
 const { PUBLIC_URL } = process.env;
 
 const Index = lazy(() => import('./pages'));
-const Media = lazy(() => import('./pages/media'));g
+const Media = lazy(() => import('./pages/media'));
 const Resume = lazy(() => import('./pages/resume'));
 const NotFound = lazy(() => import('./pages/notfound'));
 const Projects = lazy(() => import('./pages/projects'));
 const Blog = lazy(() => import('./pages/blog'));
-const Books = lazy(() => import('./pages/books'));
+const Books = lazy(() => import('~/src/pages/books'));
 
 const App = () => (
   <div>
