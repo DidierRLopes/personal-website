@@ -28,6 +28,7 @@ jobs:
       run: npm ci
       
     - name: Build
+        working-directory: /home/runner/work/personal-website
       run: npm run build
 
     - name: Predeploy
