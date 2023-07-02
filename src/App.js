@@ -1,18 +1,18 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './global.css'; // All of our styles
+
+import Index from './pages/Index';
+import Media from './pages/Media';
+import Resume from './pages/Resume';
+import NotFound from './pages/Notfound';
+import Projects from './pages/Projects';
+import Blog from './pages/Blog';
+import Books from './pages/Books';
 
 import Header from './components/Header';
 
 const { PUBLIC_URL } = process.env;
-
-const Index = lazy(() => import('./pages/index'));
-const Media = lazy(() => import('./pages/media'));
-const Resume = lazy(() => import('./pages/resume'));
-const NotFound = lazy(() => import('./pages/notfound'));
-const Projects = lazy(() => import('./pages/projects'));
-const Blog = lazy(() => import('./pages/blog'));
-const Books = lazy(() => import('./pages/books'));
 
 const App = () => (
   <div>
