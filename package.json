@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "5.0.0",
-  "homepage": "https://didierlopes.com/", //"https://DidierRLopes.github.io/personal-website/",
+  "homepage": "https://didierlopes.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
