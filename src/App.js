@@ -5,7 +5,7 @@ import './global.css'; // All of our styles
 import Index from './pages/Index';
 import Media from './pages/Media';
 import Resume from './pages/Resume';
-import NotFound from './pages/Notfound';
+import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Books from './pages/Books';
