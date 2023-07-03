@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { HashRouter, Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './global.css'; // All of our styles
 
 import Index from './pages/Index';
