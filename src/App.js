@@ -11,12 +11,11 @@ import Blog from './pages/Blog';
 import Books from './pages/Books';
 
 import Header from './components/Header';
-
-const { PUBLIC_URL } = process.env;
+// const { PUBLIC_URL } = process.env;
 
 const App = () => (
   <div>
-    <HashRouter basename={PUBLIC_URL}>
+    <HashRouter basename="/personal-website">
       <Header />
       <Suspense fallback={<Header />}>
         <Switch>
