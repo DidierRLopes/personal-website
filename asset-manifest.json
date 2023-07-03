@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.3cb6c253.css",
-    "main.js": "/personal-website/static/js/main.cf981aaf.js",
-    "static/media/FiraCode-Bold.woff2": "/personal-website/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
-    "static/media/FiraCode-Regular.woff2": "/personal-website/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
-    "index.html": "/personal-website/index.html",
-    "main.3cb6c253.css.map": "/personal-website/static/css/main.3cb6c253.css.map",
-    "main.cf981aaf.js.map": "/personal-website/static/js/main.cf981aaf.js.map"
+    "main.css": "/didierlopes.com/static/css/main.7026f993.css",
+    "main.js": "/didierlopes.com/static/js/main.891b6694.js",
+    "static/media/FiraCode-Bold.woff2": "/didierlopes.com/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
+    "static/media/FiraCode-Regular.woff2": "/didierlopes.com/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
+    "index.html": "/didierlopes.com/index.html",
+    "main.7026f993.css.map": "/didierlopes.com/static/css/main.7026f993.css.map",
+    "main.891b6694.js.map": "/didierlopes.com/static/js/main.891b6694.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb6c253.css",
-    "static/js/main.cf981aaf.js"
+    "static/css/main.7026f993.css",
+    "static/js/main.891b6694.js"
   ]
 }
