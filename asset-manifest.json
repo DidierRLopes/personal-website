@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DidierRLopes/personal-website.git/static/css/main.ab94c48a.css",
-    "main.js": "/DidierRLopes/personal-website.git/static/js/main.20067931.js",
+    "main.js": "/DidierRLopes/personal-website.git/static/js/main.1b919021.js",
     "static/media/FiraCode-Bold.woff2": "/DidierRLopes/personal-website.git/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
     "static/media/FiraCode-Regular.woff2": "/DidierRLopes/personal-website.git/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
     "index.html": "/DidierRLopes/personal-website.git/index.html",
     "main.ab94c48a.css.map": "/DidierRLopes/personal-website.git/static/css/main.ab94c48a.css.map",
-    "main.20067931.js.map": "/DidierRLopes/personal-website.git/static/js/main.20067931.js.map"
+    "main.1b919021.js.map": "/DidierRLopes/personal-website.git/static/js/main.1b919021.js.map"
   },
   "entrypoints": [
     "static/css/main.ab94c48a.css",
-    "static/js/main.20067931.js"
+    "static/js/main.1b919021.js"
   ]
 }
