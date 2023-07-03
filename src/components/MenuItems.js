@@ -45,7 +45,7 @@ const MenuItems = ({ items }) => (
       </div>
     ) */
     }
-    <a href={`${items.path}`}>{items.label}</a>
+    <a href={`/#${items.path}`}>{items.label}</a>
   </li>
 );
 
