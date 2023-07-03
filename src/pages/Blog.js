@@ -15,11 +15,6 @@ const Blog = () => (
     >
       <BlogSection mediumProfile="dro-lopes" />
     </div>
-    <div
-      id="recommendations"
-    >
-      <RecommendationSection data={favouritesData} />
-    </div>
   </div>
 );
 
