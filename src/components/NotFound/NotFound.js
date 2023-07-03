@@ -21,7 +21,7 @@ const NotFound = () => (
             className="rounded-3xl mx-auto"
             src={`${process.env.PUBLIC_URL}/images/dogs.webp`}
             width="500"
-            alt="Morty and Summer"
+            alt="Morty and Summer - Didi dogs"
           />
         </figure>
       </div>
