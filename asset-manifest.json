@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DidierRLopes/personal-website.git/static/css/main.ab94c48a.css",
-    "main.js": "/DidierRLopes/personal-website.git/static/js/main.28b1d8b3.js",
-    "static/media/FiraCode-Bold.woff2": "/DidierRLopes/personal-website.git/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
-    "static/media/FiraCode-Regular.woff2": "/DidierRLopes/personal-website.git/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
-    "index.html": "/DidierRLopes/personal-website.git/index.html",
-    "main.ab94c48a.css.map": "/DidierRLopes/personal-website.git/static/css/main.ab94c48a.css.map",
-    "main.28b1d8b3.js.map": "/DidierRLopes/personal-website.git/static/js/main.28b1d8b3.js.map"
+    "main.css": "/didierlopes.com/static/css/main.7026f993.css",
+    "main.js": "/didierlopes.com/static/js/main.4d2dc931.js",
+    "static/media/FiraCode-Bold.woff2": "/didierlopes.com/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
+    "static/media/FiraCode-Regular.woff2": "/didierlopes.com/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
+    "index.html": "/didierlopes.com/index.html",
+    "main.7026f993.css.map": "/didierlopes.com/static/css/main.7026f993.css.map",
+    "main.4d2dc931.js.map": "/didierlopes.com/static/js/main.4d2dc931.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab94c48a.css",
-    "static/js/main.28b1d8b3.js"
+    "static/css/main.7026f993.css",
+    "static/js/main.4d2dc931.js"
   ]
 }
