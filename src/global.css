@@ -2,6 +2,180 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bai_Jamjuree";
+  src: url("../public/fonts/Bai_Jamjuree/BaiJamjuree-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "K2D";
+  src: url("../public/fonts/K2D/K2D-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  background: linear-gradient(54deg, #042D5C 44.79%, #65A98F 100%);
+  color: "#FFF";
+}
+
+.header {
+  font-family: "Bai_Jamjuree";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+
+.lighter_grey {
+  background-color: #363636;
+}
+
+.darker_grey {
+  background-color: #2B2B2C;
+}
+
+.darker_black {
+  background-color: #040406;
+}
+
+
 @layer components {
   ._chevron {
     @apply inline-flex h-10 w-10 -translate-x-1 cursor-pointer items-center justify-center rounded-[4px] border border-gray-300 bg-gray-900 text-gray-300 hover:border-white hover:text-white active:translate-y-0.5 disabled:pointer-events-none disabled:border-gray-700 disabled:bg-gray-850 disabled:text-gray-700;
@@ -72,60 +246,4 @@
   .__btn {
     @apply bg-blue-100 text-blue-700 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-700 ml-3 hover:text-white hover:bg-blue-700
   }
-  .__navbar {
-    @apply text-black hover:text-blue-700 text-sm font-medium mr-2 px-2.5 py-0.5 rounded
-  }
 }
-
-@font-face {
-  font-family: "aktiv-grotesk-extended";
-  src: url("https://use.typekit.net/af/5a2c6f/00000000000000003b9ad13c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-    format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-stretch: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "aktiv-grotesk-extended";
-  src: url("https://use.typekit.net/af/3f03c1/00000000000000003b9ad13e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-    format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Fira Code";
-  src: url("../public/fonts/FiraCode-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Fira Code";
-  src: url("../public/fonts/FiraCode-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-body {
-  background-color: #040406;
-}
-
-.lighter_grey {
-  background-color: #363636;
-}
-
-.darker_grey {
-  background-color: #2B2B2C;
-}
-
-.darker_black {
-  background-color: #040406;
-}
-
