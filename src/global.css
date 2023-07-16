@@ -154,11 +154,38 @@ body {
   color: "#FFF";
 }
 
-.header {
+.navbar {
   font-family: "Bai_Jamjuree";
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+
+.index-title {
+  font-family: "Bai_Jamjuree";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+
+.index-subtitle {
+  font-family: "K2D";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #FFF;
+}
+
+.index-subtitle {
+  font-family: "K2D";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
   line-height: normal;
   color: #FFF;
 }
@@ -174,7 +201,6 @@ body {
 .darker_black {
   background-color: #040406;
 }
-
 
 @layer components {
   ._chevron {
@@ -245,5 +271,9 @@ body {
   }
   .__btn {
     @apply bg-blue-100 text-blue-700 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-700 ml-3 hover:text-white hover:bg-blue-700
+  }
+
+  .text-orange {
+    @apply text-[#FF8C00];
   }
 }
