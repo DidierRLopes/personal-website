@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 // import { Link } from 'react-router-dom';
 // import Dropdown from './Dropdown';
 
-// import ChevronDownIcon from '../assets/ChevronDownIcon';
+// import ChevronRightIcon from '../assets/ChevronRightIcon';
 
 const MenuItems = ({ items }) => (
   // const [dropdown, setDropdown] = useState(false);
@@ -26,7 +26,7 @@ const MenuItems = ({ items }) => (
           className="flex w-full items-center justify-between rounded-sm"
         >
           {items.label}
-          <ChevronDownIcon
+          <ChevronRightIcon
             className={
               clsx('tw-transition', { '-rotate-90': dropdown })
             }

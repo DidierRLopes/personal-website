@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // Single blogpost component
 const SingleBlog = ({ data }) => (
@@ -12,7 +12,7 @@ const SingleBlog = ({ data }) => (
       className="flex text-left"
     >
       {data.author}
-      <ChevronDownIcon className="-rotate-90" />
+      <ChevronRightIcon className="-rotate-90" />
     </a>
   </li>
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // Another good graph is:
 // https://github-stats.vercel.app/api?username=DidierRLopes&show_icons=true
@@ -19,7 +19,7 @@ const OpenSource = () => (
           className="flex items-center justify-center hover:text-blue-700"
         >
           Building an open-source legacy, one commit at a time.
-          <ChevronDownIcon className="-rotate-90" />
+          <ChevronRightIcon className="-rotate-90" />
         </a>
       </div>
     </div>

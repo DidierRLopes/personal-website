@@ -1,5 +1,5 @@
 import React from 'react';
-// import ChevronDownIcon from '../../assets/ChevronDownIcon';
+// import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // NotFound component
 const NotFound = () => (

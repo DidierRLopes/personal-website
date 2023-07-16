@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // Single blogpost component
 const SingleBlog = ({ data }) => (
@@ -17,7 +17,7 @@ const SingleBlog = ({ data }) => (
     >
       <h3 className="flex justify-center items-center mb-1 text-lg font-semibold text-white hover:text-blue-700">
         {data.title.replace('&gt;&gt;', '>>')}
-        <ChevronDownIcon className="-rotate-90" />
+        <ChevronRightIcon className="-rotate-90" />
       </h3>
     </a>
     <div className="_subtitle flex justify-center mb-4">
@@ -75,7 +75,7 @@ const Blog = ({ mediumProfile }) => {
               className="flex items-center justify-center hover:text-blue-200"
             >
               Check out my OpenBB Blogposts
-              <ChevronDownIcon className="-rotate-90" />
+              <ChevronRightIcon className="-rotate-90" />
             </a>
             <a
               target="_blank"
@@ -84,7 +84,7 @@ const Blog = ({ mediumProfile }) => {
               className="flex items-center justify-center hover:text-blue-200"
             >
               Follow my Medium profile to not miss any new blogposts
-              <ChevronDownIcon className="-rotate-90" />
+              <ChevronRightIcon className="-rotate-90" />
             </a>
           </div>
         </div>

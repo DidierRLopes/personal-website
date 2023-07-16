@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 const Video = ({ data }) => (
   <div className="container relative justify-center items-center mb-8">
@@ -59,7 +59,7 @@ const Videos = ({ data, youtubeProfile }) => (
             className="flex items-center justify-center hover:text-blue-200"
           >
             Subscribe to my YouTube to never miss any videos
-            <ChevronDownIcon className="-rotate-90" />
+            <ChevronRightIcon className="-rotate-90" />
           </a>
         </div>
       </div>

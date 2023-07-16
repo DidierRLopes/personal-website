@@ -1,8 +1,8 @@
 import React from 'react';
-import ChevronDownIcon from '../assets/ChevronDownIcon';
-import TwitterLogoLettersIcon from '../icons/TwitterLogoLetters';
-import LinkedinLogoLettersIcon from '../icons/LinkedinLogoLetters';
-import MediumLogoLettersIcon from '../icons/MediumLogoLetters';
+import ChevronRightIcon from '../assets/ChevronRightIcon';
+import TwitterLogoLettersIcon from '../assets/TwitterLogoLetters';
+import LinkedinLogoLettersIcon from '../assets/LinkedinLogoLetters';
+import MediumLogoLettersIcon from '../assets/MediumLogoLetters';
 
 // Get the components associated with this page
 // import AboutSection from '../components/Index/About';
@@ -18,10 +18,10 @@ const Index = () => (
   <div>
     { /* Hero shot */ }
     <div className="mx-auto mt-16 grid grid-cols-2 max-w-[1024px] flex-col p-12 text-center">
-      <div className="index-title text-left">
+      <div className="title text-left">
         <p className="whitespace-nowrap">Founder and CEO</p>
         <p className="text-orange">OpenBB</p>
-        <div className="index-subtitle text-left mt-4">
+        <div className="subtitle text-left mt-4">
           <p>I like to build stuff and learn things.</p>
         </div>
         <a
@@ -31,7 +31,7 @@ const Index = () => (
         >
           <div className="flex font-K2D text-gray-400 hover:text-white text-base font-light mt-2">
             <p>Meet me</p>
-            <ChevronDownIcon className="-rotate-90 mt-[.2rem] ml-1" />
+            <ChevronRightIcon className="mt-[.2rem] ml-2" />
           </div>
         </a>
       </div>

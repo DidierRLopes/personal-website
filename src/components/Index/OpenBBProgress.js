@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // Add latest blogposts from OpenBB
 // https://openbb.co/blog/rss.xml
@@ -19,8 +19,8 @@ const TableRow = ({
           href={link}
           className="flex items-center"
         >
-          <span>{label}</span><ChevronDownIcon className="-rotate-90" />
-        </a>) : (<div><span>{label}</span><ChevronDownIcon className="-rotate-90" /></div>)}
+          <span>{label}</span><ChevronRightIcon className="-rotate-90" />
+        </a>) : (<div><span>{label}</span><ChevronRightIcon className="-rotate-90" /></div>)}
     </td>
     <td className="p-3 rounded-r-xl bg-black text-white border-2">
       <span>{format(value)}</span>
@@ -112,7 +112,7 @@ const OpenBBProgress = ({ initialGithubData }) => {
             className="flex items-center justify-center hover:text-blue-700"
           >
             OpenBB Handbook
-            <ChevronDownIcon className="-rotate-90" />
+            <ChevronRightIcon className="-rotate-90" />
           </a>
         </div>
         <div className="_subtitle text-lg mb-4">
@@ -123,7 +123,7 @@ const OpenBBProgress = ({ initialGithubData }) => {
             className="flex items-center justify-center hover:text-blue-700"
           >
             OpenBB Metrics
-            <ChevronDownIcon className="-rotate-90" />
+            <ChevronRightIcon className="-rotate-90" />
           </a>
         </div>
       </div>

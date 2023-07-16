@@ -1,6 +1,6 @@
 import React from 'react';
 import routes from '../data/routes';
-import HomeButton from '../icons/HomeButton';
+import HomeButton from '../assets/HomeButton';
 import '../global.css';
 
 const Header = () => (

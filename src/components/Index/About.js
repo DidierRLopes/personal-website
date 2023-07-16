@@ -1,5 +1,5 @@
 import React from 'react';
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 import PersonalStats from './PersonalStats';
 
@@ -17,7 +17,7 @@ const About = () => (
           className="flex items-center justify-center hover:text-blue-700"
         >
           Founder & CEO of OpenBB
-          <ChevronDownIcon className="-rotate-90" />
+          <ChevronRightIcon className="-rotate-90" />
         </a>
       </div>
       <div className="flex-none overflow-y-scroll rounded-sm mx-auto text-lg text-white mt-4 p-2 pr-8 mb-4">

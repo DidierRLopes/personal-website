@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ChevronDownIcon from '../../assets/ChevronDownIcon';
+import ChevronRightIcon from '../../assets/ChevronRightIcon';
 
 // Single project component
 const SingleProject = ({ data }) => (
@@ -12,7 +12,7 @@ const SingleProject = ({ data }) => (
     >
       <h3 className="flex justify-center items-center mb-1 text-lg font-semibold text-white hover:text-blue-700">
         {data.title}
-        <ChevronDownIcon className="-rotate-90" />
+        <ChevronRightIcon className="-rotate-90" />
       </h3>
     </a>
     <div className="_subtitle flex justify-center mb-4">
