@@ -152,6 +152,8 @@
 body {
   background: linear-gradient(54deg, #042D5C 44.79%, #65A98F 100%);
   color: "#FFF";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
