@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.22a78c8a.css",
-    "main.js": "/static/js/main.53d38e07.js",
-    "static/media/FiraCode-Bold.woff2": "/static/media/FiraCode-Bold.abe3ab87cff86bb05610.woff2",
-    "static/media/FiraCode-Regular.woff2": "/static/media/FiraCode-Regular.bf5ea52fa0094c7f7621.woff2",
+    "main.css": "/static/css/main.3df4de9a.css",
+    "main.js": "/static/js/main.03d46685.js",
+    "static/media/K2D-BoldItalic.ttf": "/static/media/K2D-BoldItalic.d21161c7a9e4656fcc8f.ttf",
+    "static/media/K2D-SemiBoldItalic.ttf": "/static/media/K2D-SemiBoldItalic.17f15d85badb26638dd2.ttf",
+    "static/media/K2D-MediumItalic.ttf": "/static/media/K2D-MediumItalic.1a00057bd3074c6162a9.ttf",
+    "static/media/K2D-ExtraLightItalic.ttf": "/static/media/K2D-ExtraLightItalic.6b4886ef294368b17177.ttf",
+    "static/media/K2D-ThinItalic.ttf": "/static/media/K2D-ThinItalic.61ecc47b54bb43f10f01.ttf",
+    "static/media/K2D-SemiBold.ttf": "/static/media/K2D-SemiBold.f7ed44f3f63c19eea841.ttf",
+    "static/media/K2D-Bold.ttf": "/static/media/K2D-Bold.658878147ea00e3f12ae.ttf",
+    "static/media/K2D-Medium.ttf": "/static/media/K2D-Medium.0bbcc7cf9c2e343a330f.ttf",
+    "static/media/K2D-Regular.ttf": "/static/media/K2D-Regular.87f6ead5fc76809c5e08.ttf",
+    "static/media/K2D-Thin.ttf": "/static/media/K2D-Thin.28f1db98bf738a36e661.ttf",
+    "static/media/K2D-ExtraLight.ttf": "/static/media/K2D-ExtraLight.41f850016da18eb17e1c.ttf",
+    "static/media/BaiJamjuree-MediumItalic.ttf": "/static/media/BaiJamjuree-MediumItalic.feb38af08fc2823c6b6f.ttf",
+    "static/media/BaiJamjuree-SemiBoldItalic.ttf": "/static/media/BaiJamjuree-SemiBoldItalic.6d000a85d13a0870acaf.ttf",
+    "static/media/BaiJamjuree-ExtraLightItalic.ttf": "/static/media/BaiJamjuree-ExtraLightItalic.aa2959f4fe9ccb93d207.ttf",
+    "static/media/BaiJamjuree-BoldItalic.ttf": "/static/media/BaiJamjuree-BoldItalic.48de72c56bc71a15f7d4.ttf",
+    "static/media/BaiJamjuree-Medium.ttf": "/static/media/BaiJamjuree-Medium.e9ce20a140d9d6fd2425.ttf",
+    "static/media/BaiJamjuree-SemiBold.ttf": "/static/media/BaiJamjuree-SemiBold.12dca446b4c87115c23b.ttf",
+    "static/media/BaiJamjuree-Regular.ttf": "/static/media/BaiJamjuree-Regular.b6013786559eeb4c3543.ttf",
+    "static/media/BaiJamjuree-ExtraLight.ttf": "/static/media/BaiJamjuree-ExtraLight.b6127268e18bc0921ee5.ttf",
+    "static/media/BaiJamjuree-Bold.ttf": "/static/media/BaiJamjuree-Bold.da1cfc75e1ff64984f88.ttf",
     "index.html": "/index.html",
-    "main.22a78c8a.css.map": "/static/css/main.22a78c8a.css.map",
-    "main.53d38e07.js.map": "/static/js/main.53d38e07.js.map"
+    "main.3df4de9a.css.map": "/static/css/main.3df4de9a.css.map",
+    "main.03d46685.js.map": "/static/js/main.03d46685.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a78c8a.css",
-    "static/js/main.53d38e07.js"
+    "static/css/main.3df4de9a.css",
+    "static/js/main.03d46685.js"
   ]
 }
