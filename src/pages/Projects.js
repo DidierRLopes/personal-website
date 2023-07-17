@@ -8,7 +8,7 @@ import projectsData from '../data/projects/projects';
 
 // Project page
 const Projects = () => (
-  <div>
+  <div className="projects">
     <div className="mx-auto mt-16 max-w-[1024px] text-left">
       <div className="title !text-[96px]">
         See my full portfolio of personal projects

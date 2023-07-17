@@ -195,11 +195,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/71JGnUdqC5L.jpg',
   },
   {
-    title: 'Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days',
-    author: 'Jake Knapp, John Zeratsky, Braden Kowitz, Dan Bittner',
-    image: 'https://m.media-amazon.com/images/I/71Z1HWsH4fL.jpg',
-  },
-  {
     title: 'Cracking the PM Interview: How to Land a Product Manager Job in Technology',
     author: 'Gayle Laakmann McDowell, Jackie Bavaro',
     image: 'https://m.media-amazon.com/images/I/61lpVd2HzXL.jpg',
