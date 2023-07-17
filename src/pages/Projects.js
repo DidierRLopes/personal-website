@@ -1,5 +1,4 @@
 import React from 'react';
-import ChevronRightIcon from '../assets/ChevronRightIcon';
 
 // Get the components associated with this page
 // import ProjectsSection from '../components/Projects/Projects';
@@ -20,7 +19,7 @@ const Projects = () => (
       </div>
     </div>
     <div className="mx-auto mt-16 max-w-[1280px]">
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.96),1fr))] p-16 gap-8 gap-y-16 ml-16 mr-16">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.96),1fr))] p-16 gap-8 gap-y-24 ml-16 mr-16">
         {projectsData.map((project, index) => (
           <>
             {index % 2 === 0 ? (
@@ -32,21 +31,39 @@ const Projects = () => (
                   <div className="subtitle !text-[18px] flex mt-4">
                     {project.desc}
                   </div>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.link}
-                  >
-                    <button
-                      className="flex rounded-[37.736px] text-white px-4 py-1 mt-4"
-                      style={{ background: 'linear-gradient(223deg, #FF8C00 0%, #A93400 100%)' }}
-                      type="button"
-                      width="100px"
+                  <div className="flex">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={project.link}
+                      className="mr-4"
                     >
-                      View work
-                      <ChevronRightIcon className="mt-[.2rem] ml-2" />
-                    </button>
-                  </a>
+                      <button
+                        className="flex rounded-[37.736px] text-white px-4 py-1 mt-4 opacity-75 hover:opacity-100"
+                        style={{ background: 'black' }}
+                        type="button"
+                        width="100px"
+                      >
+                        Source code
+                      </button>
+                    </a>
+                    {project.article && (
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href={project.article}
+                      >
+                        <button
+                          className="flex rounded-[37.736px] text-white px-4 py-1 mt-4 opacity-75 hover:opacity-100"
+                          style={{ background: 'linear-gradient(223deg, #FF8C00 0%, #A93400 100%)' }}
+                          type="button"
+                          width="100px"
+                        >
+                          Read more
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
                 <div className="flex justify-start items-left">
                   <img
@@ -72,21 +89,39 @@ const Projects = () => (
                   <div className="subtitle !text-[18px] flex mt-4">
                     {project.desc}
                   </div>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.link}
-                  >
-                    <button
-                      className="flex rounded-[37.736px] text-white px-4 py-1 mt-4"
-                      style={{ background: 'linear-gradient(223deg, #FF8C00 0%, #A93400 100%)' }}
-                      type="button"
-                      width="100px"
+                  <div className="flex">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={project.link}
+                      className="mr-4"
                     >
-                      View work
-                      <ChevronRightIcon className="mt-[.2rem] ml-2" />
-                    </button>
-                  </a>
+                      <button
+                        className="flex rounded-[37.736px] text-white px-4 py-1 mt-4 opacity-75 hover:opacity-100"
+                        style={{ background: 'black' }}
+                        type="button"
+                        width="100px"
+                      >
+                        Source code
+                      </button>
+                    </a>
+                    {project.article && (
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href={project.article}
+                      >
+                        <button
+                          className="flex rounded-[37.736px] text-white px-4 py-1 mt-4 opacity-75 hover:opacity-100"
+                          style={{ background: 'linear-gradient(223deg, #FF8C00 0%, #A93400 100%)' }}
+                          type="button"
+                          width="100px"
+                        >
+                          Read more
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </>
             )}
