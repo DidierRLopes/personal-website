@@ -150,11 +150,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/61dx0hEkWnS.jpg',
   },
   {
-    title: 'No Red Lights: Reflections on Life, 50 Years in Venture Capital, and Never Driving Alone',
-    author: 'Alan J. Patricof',
-    image: 'https://m.media-amazon.com/images/I/71rWw43H1rL.jpg',
-  },
-  {
     title: "The Innovator's Dilemma: The Revolutionary Book That Will Change the Way You Do Business",
     author: 'Clayton M. Christensen',
     image: 'https://m.media-amazon.com/images/I/618BdBwK5ML.jpg',
