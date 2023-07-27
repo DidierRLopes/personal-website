@@ -164,6 +164,11 @@ const booksread = [
     author: 'Daniel H. Pink',
     image: 'https://m.media-amazon.com/images/I/718nhCMkc-L.jpg',
   },
+  {
+    title: 'No Red Lights: Reflections on Life, 50 Years in Venture Capital, and Never Driving Alone',
+    author: 'Alan J. Patricof',
+    image: 'https://m.media-amazon.com/images/I/71rWw43H1rL.jpg',
+  },
 ];
 
 export default booksread;
