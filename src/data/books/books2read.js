@@ -85,11 +85,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/813Pyktx7UL.jpg',
   },
   {
-    title: 'Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customer',
-    author: 'Geoffrey A. Moore',
-    image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
-  },
-  {
     title: 'Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days',
     author: 'Jake Knapp, John Zeratsky, Braden Kowitz, Dan Bittner',
     image: 'https://m.media-amazon.com/images/I/71Z1HWsH4fL.jpg',
