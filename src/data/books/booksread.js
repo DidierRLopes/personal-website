@@ -169,6 +169,11 @@ const booksread = [
     author: 'Alan J. Patricof',
     image: 'https://m.media-amazon.com/images/I/71rWw43H1rL.jpg',
   },
+  {
+    title: 'Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customer',
+    author: 'Geoffrey A. Moore',
+    image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
+  },
 ];
 
 export default booksread;
