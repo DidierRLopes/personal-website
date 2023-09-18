@@ -174,6 +174,17 @@ const booksread = [
     author: 'Geoffrey A. Moore',
     image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
   },
+  {
+    title: 'Principles: Life and Work',
+    author: 'Ray Dalio',
+    image: 'https://m.media-amazon.com/images/I/61aug2ORFVL.jpg',
+  },
+  {
+    title: 'Refactoring UI',
+    author: 'Adam Wathan, Steve Schoger',
+    image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX318_.jpg',
+  },
+  
 ];
 
 export default booksread;
