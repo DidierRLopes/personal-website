@@ -25,11 +25,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/51KMvYBy5SL.jpg',
   },
   {
-    title: 'Refactoring UI',
-    author: 'Adam Wathan, Steve Schoger',
-    image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX318_.jpg',
-  },
-  {
     title: 'Lights Out: Pride, Delusion, and the Fall of General Electric',
     author: 'Ted Mann, Thomas Gryta',
     image: 'https://m.media-amazon.com/images/I/61aKxwG3zFL.jpg',
@@ -295,11 +290,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/81heFYwGUeL.jpg',
   },
   {
-    title: 'Principles: Life and Work',
-    author: 'Ray Dalio',
-    image: 'https://m.media-amazon.com/images/I/61aug2ORFVL.jpg',
-  },
-  {
     title: "The Innovator's Solution: Creating and Sustaining Successful Growth",
     author: 'Clayton M. Christensen',
     image: 'https://m.media-amazon.com/images/I/71PoYga+qwL.jpg',
@@ -323,6 +313,11 @@ const books2read = [
     title: 'Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX',
     author: 'Eric Berger',
     image: 'https://m.media-amazon.com/images/I/81jGRuec-wL.jpg',
+  },
+  {
+    title: 'Buy Back Your Time: Get Unstuck, Reclaim Your Freedom, and Build Your Empire',
+    author: 'Dan Martell',
+    image: 'https://m.media-amazon.com/images/I/719pWKuKMwL._SL1500_.jpg',
   },
 ];
 
