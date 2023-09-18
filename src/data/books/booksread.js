@@ -184,7 +184,6 @@ const booksread = [
     author: 'Adam Wathan, Steve Schoger',
     image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX318_.jpg',
   },
-  
 ];
 
 export default booksread;
