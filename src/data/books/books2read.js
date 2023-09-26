@@ -5,11 +5,6 @@ const books2read = [
     image: 'https://m.media-amazon.com/images/I/61EyclvK8GL.jpg',
   },
   {
-    title: 'The Network State: How To Start a New Country',
-    author: 'Balaji Srinivasan',
-    image: 'https://m.media-amazon.com/images/I/41sRCUMvutL.jpg',
-  },
-  {
     title: 'How Google Works',
     author: 'Eric Schmidt, Jonathan Rosenberg',
     image: 'https://m.media-amazon.com/images/I/51WpL-WjlpL.jpg',
@@ -318,6 +313,16 @@ const books2read = [
     title: 'Buy Back Your Time: Get Unstuck, Reclaim Your Freedom, and Build Your Empire',
     author: 'Dan Martell',
     image: 'https://m.media-amazon.com/images/I/719pWKuKMwL._SL1500_.jpg',
+  },
+  {
+    title: "Think Again: The Power of Knowing What You Don't Know",
+    author: 'Adam Grant',
+    image: 'https://m.media-amazon.com/images/I/71K+FclxRdL._SL1500_.jpg',
+  },
+  {
+    title: 'Elon Musk',
+    author: 'Walter Isaacson',
+    image: 'https://m.media-amazon.com/images/I/814mI0-rkxL._SL1500_.jpg',
   },
 ];
 
