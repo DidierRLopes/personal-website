@@ -324,6 +324,16 @@ const books2read = [
     author: 'Walter Isaacson',
     image: 'https://m.media-amazon.com/images/I/814mI0-rkxL._SL1500_.jpg',
   },
+  {
+    title: "Man's Search for Meaning",
+    author: 'Viktor E. Frankl',
+    image: 'https://m.media-amazon.com/images/I/71tdb1udZnL._SL1500_.jpg',
+  },
+  {
+    title: "Thinking, Fast and Slow",
+    author: 'Daniel Kahneman',
+    image: 'https://m.media-amazon.com/images/I/71wvKXWfcML._SL1500_.jpg',
+  },
 ];
 
 export default books2read;
