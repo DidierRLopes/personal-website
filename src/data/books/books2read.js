@@ -334,6 +334,16 @@ const books2read = [
     author: 'Daniel Kahneman',
     image: 'https://m.media-amazon.com/images/I/71wvKXWfcML._SL1500_.jpg',
   },
+  {
+    title: 'The Beginning of Infinity: Explanations That Transform the World',
+    author: 'David Deutsch',
+    image: 'https://m.media-amazon.com/images/I/81V2UlgBb9L._SL1500_.jpg',
+  },
+  {
+    title: 'The Rational Optimist: How Prosperity Evolves',
+    author: 'Matt Ridley',
+    image: 'https://m.media-amazon.com/images/I/61BwDm28ViL._SL1500_.jpg',
+  }
 ];
 
 export default books2read;
