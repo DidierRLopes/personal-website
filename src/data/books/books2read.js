@@ -344,6 +344,11 @@ const books2read = [
     author: 'Matt Ridley',
     image: 'https://m.media-amazon.com/images/I/61BwDm28ViL._SL1500_.jpg',
   },
+  {
+    title: 'Working in Public: The Making and Maintenance of Open Source Software',
+    author: 'Nadia Eghbal',
+    image: 'https://m.media-amazon.com/images/I/61eKpnU9c+L._SL1480_.jpg',
+  },
 ];
 
 export default books2read;
