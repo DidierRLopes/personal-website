@@ -1,5 +1,47 @@
 const videos = [
   {
+    title: 'How to use the OpenBB Terminal - full length version',
+    embed: 'https://www.youtube.com/embed/76IkkbUlQcA?si=E1RFFRa_C2Z4YtYo',
+    description: 'Get started with the OpenBB Terminal today and learn everything you need to perform your investment research and analysis.',
+    date: '2023-10-22',
+    time: '40 minutes',
+  },
+  {
+    title: 'TimeGPT Launch | Didier Lopes, OpenBB: Democratizing Quantitative Finance',
+    embed: 'https://www.youtube.com/embed/W3CTkaEGOiM?si=LHOHE1AJcFLgK4I4',
+    description: "Didier Lopes, CEO and Co-Founder of OpenBB, he explores how his company is democratizing the world of Quantitative Finance. Don't miss out on a live code demonstration showing the integration of TimeGPT by Nixtla into the OpenBB terminal to predict stock prices.",
+    date: '2023-09-06',
+    time: '13 minutes',
+  },
+  {
+    title: 'Open source interviews #20 - Didier Lopes, founder of OpenB',
+    embed: 'https://www.youtube.com/embed/BV-zdBpVKjk?si=SJ2rwOxnq9WzcXr7',
+    description: 'Open source investment research platform | Terminal | SDK | Bot.',
+    date: '2023-08-02',
+    time: '37 minutes',
+  },
+  {
+    title: 'LlamaIndex Webinar: LLMs for Investment Research',
+    embed: 'https://www.youtube.com/embed/s8ZNLqi9hzc?si=30qYav28IqKZ88q0',
+    description: "OpenBB has an awesome Terminal product, and it's made even better with AI! We'll talk about AskOBB, powered by LlamaIndex - it gives users a natural language interface to access financial data. We'll also talk about their future plans: utilizing LLMs to chat with financial data and extract insights more efficiently, or even creating a custom research report.",
+    date: '2023-07-14',
+    time: '46 minutes',
+  },
+  {
+    title: 'Revolutionizing the financial industry through Python - SF Python @ GGU',
+    embed: 'https://www.youtube.com/embed/z52SYR7-Rm4?si=OHDdjnuc5D9erIit',
+    description: 'Didier talks about his journey from the pain points of doing investment research to starting his own investment research platform in Python and raising $8.8M to democratize investment research through open source. He will introduce the OpenBB Terminal - the famous open source investment research platform, and some of its functionalities. In addition, he will present the OpenBB SDK which allows devs to build products on OpenBB.',
+    date: '2023-06-14',
+    time: '32 minutes',
+  },
+  {
+    title: 'OpenBB x Keychron: Doing due diligence on a stock will never be the same',
+    embed: 'https://www.youtube.com/embed/cgeN3Ep2nEw?si=9WVjmvppx3tHTQrb',
+    description: 'In this video I show the concept of routines in the OpenBB Terminal and how you can automate your investment research workflows. In addition, I share how you can create your own custom MACROS on your Keychron mechanical keyboard',
+    date: '2023-02-26',
+    time: '17 minutes',
+  },
+  {
     title: "Didier's journey and Demo of the OpenBB Terminal and OpenBB SDK",
     embed: 'https://www.youtube.com/embed/t-EKA1xoFp8',
     description: "During a course of PyQuant News titled 'Getting Started with Quant Finance' I speaks about my background and do a demo about the OpenBB Terminal and the OpenBB SDK. Please note that this version of the OpenBB Terminal was an Early Release Candidate.",

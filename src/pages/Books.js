@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 // Get the components associated with this page
 // import BooksToReadSection from '../components/Books/BooksToRead';
-import BooksAlreadyReadSection from '../components/Books/BooksAlreadyRead';
+// import BooksAlreadyReadSection from '../components/Books/BooksAlreadyRead';
 
 // Get the data necessary for this page
 import books2read from '../data/books/books2read';
@@ -45,6 +45,11 @@ const Books = () => {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
 
+  const booksAlreadyReadShuffled = booksread
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+
   return (
     <div>
       <div className="mx-auto mt-16 text-left max-w-[1024px]">
@@ -64,8 +69,22 @@ const Books = () => {
           ))}
         </div>
       </div>
-      <div>
-        <BooksAlreadyReadSection data={booksread} />
+      <div className="mx-auto mt-16 text-left max-w-[1024px]">
+        <div className="title !text-[96px]">
+          Books already read
+        </div>
+        <div className="subtitle !text-[24px] mt-4">
+          Not all the books I have read, but the ones I have enjoyed the most
+        </div>
+      </div>
+      <div
+        className="relative max-w-[1280px] mx-auto mt-16"
+      >
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(theme(width.64),1fr))] p-8 gap-8 ml-16 mr-16">
+          {booksAlreadyReadShuffled.map((book) => (
+            <InvidualBook data={book} key={book.title} />
+          ))}
+        </div>
       </div>
     </div>
   );

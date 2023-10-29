@@ -165,6 +165,7 @@ const booksread = [
     image: 'https://m.media-amazon.com/images/I/718nhCMkc-L.jpg',
   },
   {
+<<<<<<< Updated upstream
     title: 'No Red Lights: Reflections on Life, 50 Years in Venture Capital, and Never Driving Alone',
     author: 'Alan J. Patricof',
     image: 'https://m.media-amazon.com/images/I/71rWw43H1rL.jpg',
@@ -175,15 +176,20 @@ const booksread = [
     image: 'https://m.media-amazon.com/images/I/81jRhPA6SQL.jpg',
   },
   {
+=======
+>>>>>>> Stashed changes
     title: 'Principles: Life and Work',
     author: 'Ray Dalio',
     image: 'https://m.media-amazon.com/images/I/61aug2ORFVL.jpg',
   },
+<<<<<<< Updated upstream
   {
     title: 'Refactoring UI',
     author: 'Adam Wathan, Steve Schoger',
     image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX318_.jpg',
   },
+=======
+>>>>>>> Stashed changes
 ];
 
 export default booksread;
